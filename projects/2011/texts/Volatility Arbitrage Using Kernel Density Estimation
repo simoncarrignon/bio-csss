@@ -1,0 +1,16 @@
+Keywords
+Finance, Trading, Derivatives, Kernel Density Estimation
+
+Summary
+An index option typically reflects some assumption of the joint distribution of the underlying financial instruments that constitute the index on which the option is written. In our investigation, we consider the assumptions that options on Dollar Index Spot (DXY) index futures imply with regard to the joint distribution of the underlying spot exchange rates of the constituent currency pairs. We then contrast these to the joint distribution implied by methods such as kernel density estimation (KDE) and use discrepancies in the index volatility implied by the computed distribution and that implied by the option to potentially identify volatility arbitrage opportunities. This would ultimately lead to trading strategies that would take advantage of these discrepancies, leading to potential profits.
+
+More information on the project can be found  here.
+
+Group Contact
+Rudi Minxha (rudi.minxha@gmail.com)
+
+Interested Participants
+Anjali Tarun (anjalibtarun@gmail.com)
+
+Mika Straka (mika.straka@imtlucca.it)
+

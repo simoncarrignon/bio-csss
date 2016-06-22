@@ -1,0 +1,6 @@
+We are interested in borrowing and adapting concepts from epidemiology to provide policy guidelines that minimize the damage to the global financial system when defaults cascade between financial institutions. 
+
+From a network perspective, we would like to identify optimal quarantine strategies (selective edge pruning, node isolation, community isolation, etc) by simulating default cascades of variable intensity on an idealized financial network. A key component of this analysis would focus on the temporal delay between the identification of a cascade threat and implementation of a control measure.
+
+Interested: 
+
