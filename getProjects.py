@@ -26,8 +26,14 @@ def test_edit(name):
     m=p.match(name)
     return(m)
 
+def check_name(name,project):
+    fname=name.split("_")[0]
+    #p=re.compile(".+"+fname.lower()+".+")
+    #re.search(fname.lower,pproject.lower())
+    return( re.search(r'\b'+fname.lower()+r'\b',project.lower()))
+
 def write_proj(prjname,prjtxt,year):
-    f = open(str(year)+"/texts/"+prjname.encode("utf-8"), 'w')
+    f = open("projects/"+str(year)+"/texts/"+prjname.encode("utf-8"), 'w')
     f.write(prjtxt.encode("utf-8"))
     f.close()
 
@@ -60,12 +66,26 @@ def get_all_projects(year):
     allproj=content.find_all('h2',recursive=False)
     nbprj=len(allproj)
     print(str(nbprj)+" projects found")
-
+    mypath="biographies/"+str(year)+"/people"
+    listofpeople = [f for f in listdir(mypath) if isfile(join(mypath, f))]
     prjname=""
     prjtxt=""
+    mat=" "
+    for name in listofpeople:
+        mat=mat+","+name
+    mat=mat+"\n"
     for elt in content.find_all(True,recursive=False): 
         if(elt.name == "h2"):
             if(curprj>0):
+                mat=mat+'"'+prjname+'"'
+                #fill the matrice if the firstname of the people is in the project description (pb with same firstname)
+                for name in listofpeople:
+                    if(check_name(name,prjtxt)):
+                        mat=mat+","+str(1)
+                        #print(name+" is in "+ prjname)
+                    else:
+                        mat=mat+","+str(0)
+                mat=mat+"\n"
                 write_proj(prjname,prjtxt,year)
                 prjtxt=""
             prjname=elt.get_text()
@@ -75,16 +95,18 @@ def get_all_projects(year):
             print("projet "+str(curprj)+"/"+str(nbprj)+": "+prjname)
         else:
             if(curprj>0):
+            #we follow saveing the text of the current project
                 prjtxt=prjtxt+elt.get_text()+"\n"
     matrix=""
     vir=","*nbprj
-    mypath="../biographies/"+str(year)+"/people"
-    onlyfiles = [f for f in listdir(mypath) if isfile(join(mypath, f))]
     matrix=listproj+"\n"
-    for name in onlyfiles:
+    for name in listofpeople:
         matrix=matrix+name+vir+"\n"
-    f = open(str(year)+"/participation_matrix.csv", 'w')
+    f = open("projects/"+str(year)+"/participation_matrix.csv", 'w')
     f.write(matrix.encode("utf-8"))
+    f.close()
+    f = open("projects/"+str(year)+"/participation_matrix-filled.csv", 'w')
+    f.write(mat.encode("utf-8"))
     f.close()
 #main
 def main():
