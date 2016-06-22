@@ -71,9 +71,12 @@ def get_all_projects(year):
     prjname=""
     prjtxt=""
     mat=" "
+    ###hedear of the matrix
     for name in listofpeople:
         mat=mat+","+name
     mat=mat+"\n"
+
+
     for elt in content.find_all(True,recursive=False): 
         if(elt.name == "h2"):
             if(curprj>0):
@@ -97,6 +100,12 @@ def get_all_projects(year):
             if(curprj>0):
             #we follow saveing the text of the current project
                 prjtxt=prjtxt+elt.get_text()+"\n"
+
+    ###print the matrix filled on the fly:
+    f = open("projects/"+str(year)+"/participation_matrix-filled.csv", 'w')
+    f.write(mat.encode("utf-8"))
+    f.close()
+    ####print the empty matrix
     matrix=""
     vir=","*nbprj
     matrix=listproj+"\n"
@@ -105,9 +114,8 @@ def get_all_projects(year):
     f = open("projects/"+str(year)+"/participation_matrix.csv", 'w')
     f.write(matrix.encode("utf-8"))
     f.close()
-    f = open("projects/"+str(year)+"/participation_matrix-filled.csv", 'w')
-    f.write(mat.encode("utf-8"))
-    f.close()
+    ########
+
 #main
 def main():
     years=range(2011,2017)
