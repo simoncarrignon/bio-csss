@@ -32,17 +32,30 @@ def check_name(name,project):
     #re.search(fname.lower,pproject.lower())
     return( re.search(r'\b'+fname.lower()+r'\b',project.lower()))
 
-def write_proj(prjname,prjtxt,year):
-    f = open("projects/"+str(year)+"/texts/"+prjname.encode("utf-8"), 'w')
+def write_proj(prjname,prjtxt,year,hid):
+    #f = open("projects/"+str(year)+"/texts/"+prjname.encode("utf-8"), 'w')
+    f = open("projects/"+str(year)+"/texts/"+str(hid)+"-"+prjname.encode("utf-8"), 'w')
     f.write(prjtxt.encode("utf-8"))
     f.close()
 
-def get_all_projects(year): 
+def get_all_history_ids(year,maxnum):
+    baseurl="http://tuvalu.santafe.edu/events/workshops/index.php?title=Complex_Systems_Summer_School_"+str(year)+"-Projects_%26_Working_Groups&offset=20160622193918&limit="+str(maxnum)+"&action=history"
+    response=get_html(baseurl)
+    soup = BeautifulSoup(response.read(), 'html.parser') # convert the hml code in a bs4 object
+
+    content=soup.body.find_all('a',attrs={'class':'mw-changeslist-date'}) #return the div with the content of the page
+    allid=[]
+    for link in content:
+        m=re.search('oldid=([0-9]+)"',str(link))
+        hid=m.group(1)
+        allid.insert(0,int(hid))
+    return(allid)
+
+def get_all_projects(year,hid): 
     baseurl= "http://tuvalu.santafe.edu/events/workshops/index.php?title=Complex_Systems_Summer_School_"+str(year)+"-Projects_%26_Working_Groups" 
-    history="&oldid=63307"
-    isOld=False
-    if isOld:
-        baseurl=baseurl+history
+    #history="63307"
+    if(hid):
+        baseurl=baseurl+"&oldid="+str(hid)
 
     print("trying to parse projects from: "+str(year))
     print(baseurl)
@@ -89,7 +102,7 @@ def get_all_projects(year):
                     else:
                         mat=mat+","+str(0)
                 mat=mat+"\n"
-                write_proj(prjname,prjtxt,year)
+                write_proj(prjname,prjtxt,year,hid)
                 prjtxt=""
             prjname=elt.get_text()
             prjname = prjname.replace("/", "-")
@@ -102,26 +115,33 @@ def get_all_projects(year):
                 prjtxt=prjtxt+elt.get_text()+"\n"
 
     ###print the matrix filled on the fly:
-    f = open("projects/"+str(year)+"/participation_matrix-filled.csv", 'w')
+    f = open("projects/"+str(year)+"/"+str(hid)+"participation_matrix-filled.csv", 'w')
     f.write(mat.encode("utf-8"))
     f.close()
     ####print the empty matrix
-    matrix=""
-    vir=","*nbprj
-    matrix=listproj+"\n"
-    for name in listofpeople:
-        matrix=matrix+name+vir+"\n"
-    f = open("projects/"+str(year)+"/participation_matrix.csv", 'w')
-    f.write(matrix.encode("utf-8"))
-    f.close()
+    #matrix=""
+    #vir=","*nbprj
+    #matrix=listproj+"\n"
+    #for name in listofpeople:
+    #    matrix=matrix+name+vir+"\n"
+    #f = open("projects/"+str(year)+"/participation_matrix.csv", 'w')
+    #f.write(matrix.encode("utf-8"))
+    #f.close()
     ########
 
 #main
 def main():
     years=range(2011,2017)
+    a=get_all_history_ids(2016,1500)
+    cur=1
+    for hid in a:
+        print("revision "+str(hid)+": "+str(cur)+"/"+str(len(a)))
+        get_all_projects(2016,hid)
+        cur=cur+1
+    print(a)
     #years=[2016]
-    for year in years:
-        get_all_projects(year)
-    
-main()
+    #for year in years:
+    #    get_all_projects(year)
+    #
 
+main()
