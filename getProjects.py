@@ -39,7 +39,7 @@ def write_proj(prjname,prjtxt,year,hid):
     f.close()
 
 def get_all_history_ids(year,maxnum):
-    baseurl="http://tuvalu.santafe.edu/events/workshops/index.php?title=Complex_Systems_Summer_School_"+str(year)+"-Projects_%26_Working_Groups&offset=20160622193918&limit="+str(maxnum)+"&action=history"
+    baseurl="http://tuvalu.santafe.edu/events/workshops/index.php?title=Complex_Systems_Summer_School_"+str(year)+"-Projects_%26_Working_Groups&offset=20160625193918&limit="+str(maxnum)+"&action=history"
     response=get_html(baseurl)
     soup = BeautifulSoup(response.read(), 'html.parser') # convert the hml code in a bs4 object
 
@@ -48,7 +48,8 @@ def get_all_history_ids(year,maxnum):
     for link in content:
         m=re.search('oldid=([0-9]+)"',str(link))
         hid=m.group(1)
-        allid.insert(0,int(hid))
+        newelt=[int(hid),link.get_text().replace(",","")]
+        allid.insert(0,newelt)
     return(allid)
 
 def get_all_projects(year,hid): 
@@ -131,17 +132,20 @@ def get_all_projects(year,hid):
 
 #main
 def main():
-    years=range(2011,2017)
-    a=get_all_history_ids(2016,1500)
-    cur=1
-    for hid in a:
-        print("revision "+str(hid)+": "+str(cur)+"/"+str(len(a)))
-        get_all_projects(2016,hid)
-        cur=cur+1
-    print(a)
+    years=range(2016,2017)
+#    print(a)
     #years=[2016]
-    #for year in years:
-    #    get_all_projects(year)
-    #
+    for year in years:
+        a=get_all_history_ids(year,1500)
+        cur=1
+        f = open("projects/"+str(year)+"/id.csv", 'w')
+        f.write("id,time\n")
+        for elt in a:
+            hid=elt[0]
+            print("revision "+str(hid)+" ("+str(cur)+"/"+str(len(a))+")")
+            get_all_projects(year,hid)
+            cur=cur+1
+            f.write(str(elt[0])+","+str(elt[1])+"\n")
+        f.close()
 
 main()
