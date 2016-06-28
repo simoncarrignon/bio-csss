@@ -10,6 +10,30 @@ import re
 import os
 
 
+def levenshtein_distance(first, second):
+    """Find the Levenshtein distance between two strings."""
+    if len(first) > len(second):
+        first, second = second, first
+    if len(second) == 0:
+        return len(first)
+    first_length = len(first) + 1
+    second_length = len(second) + 1
+    distance_matrix = [[0] * second_length for x in range(first_length)]
+    for i in range(first_length):
+       distance_matrix[i][0] = i
+    for j in range(second_length):
+       distance_matrix[0][j]=j
+    for i in xrange(1, first_length):
+        for j in range(1, second_length):
+            deletion = distance_matrix[i-1][j] + 1
+            insertion = distance_matrix[i][j-1] + 1
+            substitution = distance_matrix[i-1][j-1]
+            if first[i-1] != second[j-1]:
+                substitution += 1
+            distance_matrix[i][j] = min(insertion, deletion, substitution)
+    return distance_matrix[first_length-1][second_length-1]
+
+
 
 #get_html return the html code of a given page with adresse: url 
 def get_html(url):
@@ -26,6 +50,10 @@ def test_edit(name):
     m=p.match(name)
     return(m)
 
+def get_name(name):
+        m1=re.search("title=(.+)&action",name)
+        return(m1.group(1))
+
 #this function go to the page of a given student with a relative url "student" and 
 #Write the biography of this student in the folder of the given year 
 def write_bio(student,year):
@@ -34,8 +62,14 @@ def write_bio(student,year):
     studname=urlstud.split('/')
     studname=studname[len(studname)-1]
     print("parsing student: "+studname)
+    k = open("")
+    csvfile=csv.reader(k)
+
+
+        #print(cname)
     text=""
     if test_edit(urlstud):
+        studname=get_name(studname)
         print("student "+studname+" without bio")
         text="no bio written"
     else:        
@@ -45,9 +79,24 @@ def write_bio(student,year):
         allpstud=studinfo.find_all('p')
         for allpstud in allpstud:
             text= text+"\n" + allpstud.get_text()
-        print(text.encode("utf-8"))
+        #print(text.encode("utf-8"))
 
-    f = open(str(year)+"/people/"+studname.encode("utf-8"), 'w')
+    names=[]
+    procname=studname.replace("_"," ").lower().strip() 
+    dis=1000
+    #key detection
+    for row in csvfile:
+        fn=row[0].strip()
+        ln=row[1].strip()
+        cname=fn.lower().strip()+" "+ln.lower().strip()
+        if(dis > levenshtein_distance(cname,procname) ):
+            names.append(cname)
+            dis=levenshtein_distance(cname,procname)
+    print(names.pop()) #    u=False
+
+
+
+    f = open("biographies/"+str(year)+"/people/"+studname.encode("utf-8"), 'w')
     f.write(text.encode("utf-8"))
     f.close()
 
@@ -65,10 +114,10 @@ def get_all_participants(year):
     content=soup.body.find('div',attrs={'id':'mw-content-text'}) #return the div with the content of the page
 
     print(str(year))
-    if not(os.path.isdir(str(year))):
-        os.mkdir(str(year))
-    if not(os.path.isdir(str(year)+"/people")):
-        os.mkdir(str(year)+"/people")
+    if not(os.path.isdir("biographies/"+str(year))):
+        os.mkdir("biographies/"+str(year))
+    if not(os.path.isdir("biographies/"+str(year)+"/people")):
+        os.mkdir("biographies/"+str(year)+"/people")
 
     if year == 2011: #for 2011 we cannot use the "Participants" title as they didn't put such title
         alllink=content.find_all('a')
@@ -89,7 +138,6 @@ def get_all_participants(year):
                     for student in allstudent:
                         write_bio(student,year)
                         isstud=False
-
             span=elt.find_all('span',attrs={'id':'Participants'}) #if we reach the "Participants" title, we can start to parse
             if span:
                 print(span) 
