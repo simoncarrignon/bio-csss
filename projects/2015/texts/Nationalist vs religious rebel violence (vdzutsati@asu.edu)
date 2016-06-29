@@ -1,8 +1,0 @@
-I would like to propose yet another possible project. This time it’s on rebel violence. I have a large dataset on rebel (and government) violence (~1 million observations). The paper that used this data was published couple of months ago (Islamists and Nationalists: Rebel Motivation and Counterinsurgency in Russia’s North Caucasus). The dataset contains event counts, GIS data, demographic and economic characteristics and some other stuff. The primary hunch of the paper was to discover the differences between nationalist and Islamist rebels.
-
-Given all the cool methods we are learning here, my first instinct is to use the methods and tools (TISEAN?) to explore and discover whether nationalist violence is substantively different from religious violence and try to answer why.
-
-One problem that I can see is that the event coding was done by a machine, so this may have “contaminated” the data. But if both religious and nationalist data were contaminated equally then the difference should still be evident.
-
-Interested:
-

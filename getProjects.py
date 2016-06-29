@@ -169,7 +169,7 @@ def get_all_projects(year,hid,listofpeople):
 
 #main
 def main():
-    years=range(2011,2016)
+    years=range(2011,2017)
     #years=[2016]
     for year in years:
         print(str(year))
@@ -186,7 +186,7 @@ def main():
         fileid.write("id,time\n")
         listofpeople=get_list_people(year)
         allid=get_all_history_ids(year,1500)
-        for i in range(1,len(allid),len(allid)*5/len(allid)):
+        for i in range(1,len(allid),len(allid)/60):
             elt=allid[i]
             hid=elt[0]
             print("revision "+str(hid)+" ("+str(cur)+"/"+str(len(allid))+")")
