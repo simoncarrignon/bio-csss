@@ -2,6 +2,8 @@
 # -*- coding: utf-8 -*-
 #Code used for the Complex System Summer School 2016
 #contact: sc@elisya.org
+#Todo : levenshtein on topic name & factorised the 2 .py files
+#(create classes?)
 
 from bs4 import BeautifulSoup
 import urllib2
@@ -20,6 +22,9 @@ def get_list_people(year):
     random.shuffle(listofpeople)
     return(listofpeople)
 
+#Compute the levenshtein distance between two string 
+#(reduce the cost of space?
+#Give extra point for whole name match
 def levenshtein_distance(first, second):
     """Find the Levenshtein distance between two strings."""
     if len(first) > len(second):
