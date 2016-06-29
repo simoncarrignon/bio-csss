@@ -62,11 +62,11 @@ def write_bio(student,year):
     studname=urlstud.split('/')
     studname=studname[len(studname)-1]
     print("parsing student: "+studname)
-    k = open("")
+
+    k = open("/home/simon/key.csv")
     csvfile=csv.reader(k)
 
 
-        #print(cname)
     text=""
     if test_edit(urlstud):
         studname=get_name(studname)
@@ -79,7 +79,6 @@ def write_bio(student,year):
         allpstud=studinfo.find_all('p')
         for allpstud in allpstud:
             text= text+"\n" + allpstud.get_text()
-        #print(text.encode("utf-8"))
 
     names=[]
     procname=studname.replace("_"," ").lower().strip() 
