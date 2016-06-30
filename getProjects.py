@@ -81,7 +81,7 @@ def get_id(name):
     return(names.pop()) 
 
 
-#Chec if a given name is in the project text
+#Check if a given name is in the project text
 def check_name(name,project):
     fname=name.split("_")[0]
     #p=re.compile(".+"+fname.lower()+".+")
