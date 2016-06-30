@@ -1,0 +1,53 @@
+Context
+
+Ants leave pheromone trail patterns which they are aware of only in a local sense. They do not have the cognitive faculties to step back and look at the trails and grasp the ant-trail network as a totality. Also, the artifacts they leave behind are physical entities which then provides the aggregate feedback to the aggregate ant body to then feed the evolution of the ant body as a CAS system. In contrast, humans do have the requisite cognitive abilities. The "pheromone trails" we leave behind are the knowledge trails coded in symbolic knowledge artifacts. In contrast to the physical artifacts that ants leave behind, the knowledge artifacts that we leave behind are far more flexible and potent, both at the aggregate as well as at the individual levels. But like the ants, until recently, we did not have the means to step back and map the knowledge "pheromone trails" to obtain the big picture and its global/local dynamics. The burgeoning field of scientometrics is making available visualization tools to help us map and study the evolutionary dynamics of the knowledge network structures. 
+
+Data and Questions
+
+The goals of this project include 
+
+
+Extract the terms from approximately 1600 working papers published by SFI
+Map the intra/inter conceptual network structures
+Study the evolution of these structures across time
+High-light the gap-closure of knowledge reverse-salients (if any)
+Capture any of the network patterns that repeat
+Study the diffusion of concepts across the network
+Provide visualization tools for navigating the complexity corpus, etc
+
+
+Possible methods
+
+Latent Semantic Analysis (LSA) and Latent Document Analysis (LDA) 
+
+References:
+
+
+ SFI Working Papers: http://www.santafe.edu/research/working-papers/
+ Atlas-Science-Visualizing: http://www.amazon.com/Atlas-Science-Visualizing-What-Know/dp/0262014459
+ Atlas-Science-Visualizing WebSite: http://scimaps.org/atlas
+ Mapping-Scientific-Frontiers-Knowledge-Visualization: http://www.amazon.com/Mapping-Scientific-Frontiers-Knowledge-Visualization/dp/1447151275
+ Katy Börner presents at Science of Science: https://www.youtube.com/watch?v=pzCqGBNzomE
+ Scholarly Data, Network Science, and (Google) Maps:https://www.youtube.com/watch?v=vos5QBDywMM
+ LSA Video Lect: http://videolectures.net/slsfs05_hofmann_lsvm/
+ What is LSA: http://lsa.colorado.edu/papers/dp1.LSAintro.pdf
+ LSA Wiki:http://en.wikipedia.org/wiki/Latent_semantic_analysis
+ LDA: http://psiexp.ss.uci.edu/research/programs_data/toolbox.htm
+
+
+Interested:
+
+
+
+ John Thomas (radjohn@live.com) 
+ Laura Condon (lcondon@mymail.mines.edu) 
+ Haitao Shang (hts@mit.edu) 
+ Sharon Greenblum (sharongreenblum@gmail.com) 
+ Christopher Verzijl (cjo.verzijl@gmail.com) 
+ Nilton Cardoso (nilton_cardoso@hotmail.com) 
+ Glenn Magerman (glenn.magerman@kuleuven.be) 
+ Emilia Wysocka (emilia.m.wysocka@gmail.com) 
+
+
+
+

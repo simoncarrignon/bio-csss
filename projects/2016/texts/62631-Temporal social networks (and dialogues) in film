@@ -1,0 +1,32 @@
+Keywords
+movies, films, social network analysis, pop culture
+
+Summary
+I have (or know of) three cool datasets for analyzing social networks and interactions of characters in films (i.e., the "social" networks of the characters in the movies, based on who appears with and talks with who). 
+
+ Dataset 1: pre-processed dialogues from around 300 movies + interesting IMBD metadata (this dataset is public; www.mpi-sws.org/~cristian/Cornell_Movie-Dialogs_Corpus.html). 
+ Dataset 2: detailed information on the temporal scene structure (who is on screen when + scene breaks etc.) for thousands of movies + metadata (e.g., rotten tomatoes scores); this data is more private/sensitive and is currently somewhat messy, but we can definitely use it for this project. It should be easy to extract dynamic networks from which characters are on screen together. 
+ Dataset 3: high-level static (i.e., non-temporal) network structures for character interactions in 700 movies (this dataset is public; www.moviegalaxies.com; not totally clear how the data was constructed).
+I think this data could give some really interesting insights into the art of storytelling and motifs/archetypes that re-occur. 
+
+This is only tangentially related to my usual PhD work (I just happen to know of the data), so any high-level thoughts on what would be interesting to do with this data are welcome! (Feel free to edit/add things here). A couple things I thought of:
+
+ How do structures of movie social networks predict genre, rating, box office success, country of production, etc.
+ (Temporal) network motifs: what are the common patterns of different types of films? 
+ Movie social networks vs. real life social networks.
+Group Contact
+Will Hamilton (wleif@stanford.edu)
+
+Interested participants, please sign up below and join the Slack channel [sfi-csss-2016.slack.com/messages/movie-networks, email Will if not yet on Slack]
+ Juste Raimbault (juste.raimbault@polytechnique.edu) [definitively in, but not as main project. Can propose analyses such as NLP on dialogues or spatial analysis if there is spatial metadata.]
+ Jesús Arroyo (jarroyor@umich.edu)
+ Andy Mellor (mmasm@leeds.ac.uk) - Very interesting project but perhaps a little to close to my PhD work. Definitely interested in the tempora network aspect/temporal motifs.
+ Michael Schaub (michael.schaub@uclouvain.be)
+ Marius Somveille (marius.somveille@zoo.ox.ac.uk)
+ Moriah Echlin (echlinm@uw.edu)
+ Nicole Beckage (nbeckage@gmail.com)
+ Elise Jing (jingy@indiana.edu)
+ Thomas Zhang(tomzhang@umich.edu) (Would very happy to join the discussions and contribute ideas. Probably would not do this as my main project here at SFI due to similarity to my own research.)
+ Lu Liu
+Catriona Sissons (c.sissons@auckland.ac.nz)
+

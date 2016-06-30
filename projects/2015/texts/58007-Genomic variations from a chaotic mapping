@@ -1,0 +1,17 @@
+Following Dabby CHAOS 6 (2), 1996 Musical variations from a chaotic mapping, this project will explore genomic variations in key metabolic genes that are known to be widely spread across bacterial phylogeny (e.g. the Nif cluster which is used in nitrogen fixation). There are several ways that  genomic data can be treated as "music":
+
+1) Nucleotide: 4 notes - A, G, C, T 
+2) Amino Acids: 20 notes
+3) codon triplets: 64 notes
+4) tetra nucleotide repeats: 256 notes. 
+
+One possible goal is to take a seed sequence from some random organism and generate new variations. Then using homology search (e.g. BLAST) determine if that variation exists in nature? If not, perhaps model the potential protein folding (if possible?) to determine if that variation could exist in nature. This is VERY preliminary and can go in many directions. If interested please list name below or contact Jarrod Scott at jscott@bigelow.org
+
+Reading
+http://digitalcommons.olin.edu/cgi/viewcontent.cgi?article=1000&context=ahse_pub&sei-redir=1&referer=https%3A%2F%2Fscholar.google.com%2Fscholar%3Fhl%3Den%26q%3Ddabby%2Bchaos%26btnG%3D%26as_sdt%3D1%252C32%26as_sdtp%3D#search=%22dabby%20chaos%22
+
+Interested:
+
+
+
+Preliminary Discussion Meetings

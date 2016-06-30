@@ -1,0 +1,31 @@
+Summary
+Prestige goods, in a nutshell, are goods whose value is in conveying social status/ranking, and there is a great deal of speculation about how they contribute to increasing social complexity. It would be interesting to explore these dynamics via an ABM.
+Since prestige goods indicate power (in the form of social status/ranking, or however else we may define power), this project will also explore modeling power in social groups.
+I know some folks at SFI have been working on the dynamics of prestige/power, so we should ask Juniper for contacts!  
+A couple of ideas:
+
+ Kantner from the Santa Fe School of Advanced Studies has an interesting game-theory model on how people decide to invest in prestige goods.  He includes some data on turquoise in archeological contexts in the Chacoan culture (http://www.jstor.org/stable/27820883).  It would be interesting to a) implement this as an agent-based model, and b) explore some additional dynamics.
+ Aimee Plourde has a model of prestige goods as costly signals.
+ There's the interesting question of how a prestige economy responds when the prestige goods all come from outside and the supply dries up.  (Case study would be Japan's Yayoi period - the main prestige goods were Chinese-produced bronze mirrors and swords, but when the Han dynasty started going downhill and no longer giving the good stuff to their tributary states, we see some interesting dynamics.  All I have is a high-level overview of this right now (no archeological data) and there were multiple other factors involved, so it's really messy, but might be interesting to talk about at least.)  
+Group Contact
+Ellen Badgley (flyingrat42@gmail.com)
+Lula Chen (nchen3@illinois.edu)
+
+Interested participants, please sign up below
+Simon Carrignon: I wrote already a general ABM to study that kind of things, but would be really happy to start from scratch something new in python or whatever!
+ Awesome! I started reading your paper and it looks like a great starting point - maybe we could extend the model to distinguish between common goods (subsistence-level, go away after each season) and permanent prestige goods that convey social value, as well as looking into the implementations of prestige on agent actions.  If you would like to continue working on this for CSSS let's talk. - Ellen
+Donovan Platt (donovan.platt@students.wits.ac.za)
+Will Hamilton (wleif@stanford.edu)
+Ben Zhu (b.zhu@tudelft.nl)
+Joris Broere (j.j.broere@uu.nl)
+William Leibzon (william@leibzon.org> - mostly observer/lurk mode
+
+Group Organization
+We have a Slack channel on https://sfi-csss-2016.slack.com.  If you need an invite to the Slack team, email flyingrat42@gmail.com.
+
+
+
+Meetings
+
+We're meeting in the coffee shop at 6:30, June 15th.
+

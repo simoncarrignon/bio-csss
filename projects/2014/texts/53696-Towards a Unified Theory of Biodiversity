@@ -1,0 +1,9 @@
+The idea is to build on the Unified Neutral Theory of Biodiversity and create a realistic unified theory that incorporates important scaling phenomena following power laws, energetic constraints, and stochasticity that have been previously neglected. Basically, we want to modify the unrealistic assumptions that birth, death, speciation rates are stochastic uniform functions across all species within a given meta-community. In fact, these processes have recently been shown to scale with body size following power laws of the form Y= C * M^alpha, where C is a constant independent of body mass, M, and alpha is the scaling exponent. These constraints will also dictate how much energy is required at different trophic levels and body sizes, ultimately constraining abundance of organisms in natural systems. Stochasticity will still play a role, but it should be first bounded by energetic constraints. We also plan to incorporate environmental noise, that is to say, incorporate in the model the realistic assumption that the environment changes through time and therefore so will the fitness of different species in the meta-community.
+The ultimate goal is to provide a Unified Theory that can make clear predictions about size-abundance-distributions in natural systems, and, perhaps, also make predictions about speciation-extinction dynamics. We currently hold data to test predictions on an 'ecological' time scale. At this point we are uncertain on whether we could obtain good fossil/contemporary data to calibrate/test models.
+
+Interested: 
+Diego Barneche Rosado (diego.barneche@mq.edu.au) 
+Cornelia Metzig 
+Michael Kalyuzhny 
+Ana María 
+

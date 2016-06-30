@@ -1,0 +1,37 @@
+Keywords
+Adaptive strategies, co-evolutionary systems, cybersecurity, DOTA 2, Inductive Game Theory, time-series analysis, potential NLP, potential genetic algorithms, potential network analysis
+
+Key Points
+Main question: how to a) detect and b) quantify the rate of change of strategies in co-evolutionary systems?
+
+Motivation: improve cyber intrusion detection algorithms
+
+Method: use the competitive, strategic, multiplayer online game DOTA 2 data as a proxy for a cyber attack.  Extract sets of strategies from game observables and develop an algorithm to detect when strategies change.  This could be from within the games or from the drafting of characters (heroes).  
+
+Summary
+Most metrics for scoring how well a given cyber intrusion algorithm performed involve static determinations after an attack has occurred and usually consist of simple false positive or false negative type scores.  This does not enable the granularity necessary to improve these algorithms in appreciable ways.  The goal is to develop new metrics to assess in real time when and how attackers adapt to the protective mechanisms they encounter so that the security teams can adjust their own defensive tactics more quickly.  This could decrease the long lead time for patches and stave off additional damage.  
+
+Usable data from within the cyber domain that may help to strengthen detection algorithm scoring is nearly nonexistent.  If actual attacks are documented in the real world, this data is rarely made available and may be network specific (hence, not generalizable).   Thus, a proxy for the data is necessary.  An online battle arena video game called Defense of the Ancients 2 (Dota 2) is a rich data source of real-time adaptive adversaries.  Dota 2 is a strategic, competitive, multiplayer game where two teams of five individuals each compete against each other to complete objectives and to destroy the other team’s base in a time frame of ~20 to ~90 minutes.  The players deploy various in-game and between-game tactics and procedures to achieve a specific measurable objective.  Professional players vie for tens of millions of dollars in prize pools each year, and over 2 billion games have been played.  Currently, we have access to a Mongo database with 500 GB of data (~2.5 million games played over one year).  
+
+This is akin to the classic ‘Red Queen hypothesis’ in evolutionary biology, but in this case we are interested in human behaviors where a strategy can be considered most generally as a ‘meme’ of sorts.  Our hypotheses include: 1) a mapping exists between game observables and a set of strategies, 2) a measurable signal can be extracted from which to ascertain the adoption, stabilization, and decay of specific strategy traits, 3) changes in strategies occur over time, and 4) strategy changes are driven (at least in part) from behaviors of the opposing team.  We postulate that testing these hypotheses will require an understanding of the co-evolutionary dynamics of the overall environment.  In particular, the human behavioral components underlying the adversary/defense team actions will need to be assessed.  The use of data from a multiplayer online game for this purpose assumes there is a valid mapping between the ‘game-space’ to ‘cyber-space’ behaviors from which useful inferences can be made.  Through this exercise we hope to understand what types of data (if any) are useful for this purpose and how one might develop proxies to characterize strategies.  Ultimately, we hope that the analysis could be applied against realistic data specific to a cyber intrusion.  
+
+See DOTA 2 DATA OVERVIEW for additional details.  
+
+
+
+Technology
+Parsed data is in JSON format.  We should have access to two databases: one is a mongo database discussed above for aggregated information (e.g., fights, deaths (characters respawn), characters played, items acquired, positions for the first 10 minutes, league IDs, player IDs, wins), and the second is raw data for every move and every action each player took throughout the entire game.  
+
+Interesting addition and comments to the idea
+Please add your comments and idea about the project here.
+
+Group Contact
+Anne Sallaska, alsallaska@gmail.com (or asallaska@mitre.org, harder to check so slower to respond potentially).  Slack channel has been set up!  If you need an invite to Slack, let me know.  That will be the easiest way to organize and communicate.
+
+Interested participants, please sign below
+ Harrison Smith (hbs@asu.edu)
+ Ellen Badgley (flyingrat42@gmail.com) - I'm happy to provide support for the Java parser
+ Will Hamilton (wleif@stanford.edu)
+ Marla Stuart (marlastuart@berkeley.edu)
+ Salva Duran (salvador.duran at upf.edu)
+ Daniel Biro (daniel.biro@med.einstein.yu.edu)

@@ -1,0 +1,22 @@
+The Free Energy (FE) minimisation framework tries to explain how biological systems (such as a cell or a brain) self-organise in order to occupy the (often very limited number of) non-equilibrium states that minimise free energy. This is also known as active inference. A simple corollary of active inference is that agents behave as to minimise their prediction error, or the difference between prediction and reality.
+
+
+Thermodynamic free energy is a measure of energy available in a system to do useful work. This can be framed in an information theoretic setting, as the difference between how the world is being represented and how it actually is.  A better fit means a lower information-theoretic free energy, as more resources are being put to ‘good use’ in representing the world.
+
+
+The overarching logic of FE theory is that a better model of the world help maintain structure and organisation, which ultimately helps the system resist increases in entropy.
+
+
+Interested:
+
+
+Contact: tobiasm@drcmr.dk 
+
+
+Reading:
+
+
+Life as we know it: http://rsif.royalsocietypublishing.org/content/10/86/20130475
+
+
+

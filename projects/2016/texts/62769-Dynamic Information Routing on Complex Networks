@@ -1,0 +1,13 @@
+Keywords
+information flow, network dynamics, oscillator networks, attractors, characterizing influence of network components
+
+Summary
+Flexible information routing fundamentally underlies the function of many biological and artificial networks. Yet, how such systems may specifically communicate and dynamically route information is not well understood. Kirst et. al (2016) present a mechanism that routes information on top of collective dynamical reference states in complex networks. Switching between collective dynamics induces flexible reorganization of information sharing and
+routing patterns, as quantified by delayed mutual information and transfer entropy measures between activities of a network’s units.
+
+For this project, we are interested in characterizing nodes and network topologies that are especially influential on the routing of information flows on the overall network. Toward this end, we hope to identify attractors for this sort of high-dimensional complex network and, in so doing, identify the parameters that are most important in shaping information flows on the network. This work may also include re-exploration of metrics of directional information flow, network evolution, and/or application to neuroscience data.
+
+Group Contact
+Hamza Giaffar (hamzagiaffar@gmail.com)
+
+Data Sets

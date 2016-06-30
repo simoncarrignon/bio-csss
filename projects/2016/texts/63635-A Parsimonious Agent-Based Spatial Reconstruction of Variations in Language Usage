@@ -1,0 +1,25 @@
+Keywords
+language, evolution, ABM, simulation, sufficient conditions, necessary conditions, multi-modelling
+
+Summary
+The project was born as a data-driven attempt at providing a sufficient and parsimonious explanation for observed stylized facts in the temporal evolution of language. 
+We have unspatialized (non-georeferenced) data. A few well-known drivers pushing language(s) evolution exist. 
+The idea is to develop an agent-based model where individuals, grouped in sub-populations, roam around, either offering and adopting “variations”. Do mutation also occur? How?
+The population is constituted by groups/communities of heterogeneous agents (possibly, both at the micro- and the meso-scale) whose initial characteristics are bootstrapped with our data. An individual is more likely to be similar to individual belonging to the same community.
+The model(s) will be trimmed in order to give a realistic temporal evolution, matching as closely as possible the real data.
+In particular, we look for alternative spatial configurations leading to a close match vs. a bad match, offering a tentative causal explanation for the stylized facts observed in the data. Multiple models will compete in order to offer the best match.
+
+Everybody is expected to step a bit out of their comfort zone (wrt data, modelling paradigms, …)
+
+Group Contact
+Matteo Morini matteo.morini@ens-lyon.fr
+
+Participants
+Hamza Giaffar
+Juste Raimbault
+William L Hamilton
+Danilo Liuzzi
+Philip Pyka
+Sina Tafazoli
+
+Data Sets

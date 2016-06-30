@@ -1,0 +1,20 @@
+In the current phase of globalization, networks in logistics, travel, finance, disease, energy, and ecology are growingly increasingly interconnected on a global scale. Hence, situations arise where mortgage defaults in the US bring down the Icelandic pension system, and a volcano in Iceland disrupts global air traffic. Given the scale of interconnectedness, can complexity science help develop a sense of how small perturbations in one global network might cascade into large unforeseen failures in another network? I'm wondering if we can help build a more generic grammar for describing interconnected networks and the risks posed by such systems. Would it be possible to mitigate risk at smaller local levels of scale, or do small corrections of local risk inevitably cascade into larger risks that we lack the ability to respond to (think wildfires in the Southwest where more frequent small fires would help reduce the chance of large scale fires that cannot be controlled.) I'd love to talk with anyone interested in ecology, globalization, risk, and network modelling.
+
+My advisor at Princeton is already funded for a three year interdisciplinary symposium on Global Emergent Risk, so if people are interested, we have resources to carry on a larger research engagement.
+
+-- Manish
+
+
+- I don't know if large risk cascades are inevitable, but these are timely questions. I have colleagues at the Global Catastrophic Risk Institute who are also interested in this topic. I'm not sure what building a "more generic grammar" means, but the cross-impact balance method is pretty generic. Hopefully you can make our  tutorial! Our group is kicking around methods for a project at the moment and have not decided on research questions, so perhaps we can join forces.  -- Vanessa
+
+- To clarify, what I meant by "generic grammar" is some way to describe a set of networks and cross network dependencies that can be decoupled from the content of the network. We could use this language to describe interconnections between hypothetical logistics, travel, financial networks for example, and then use simulations to understand the conditions where risks might be amplified and/or jump across from one network to another. -- Manish
+
+- I'd love to join discussions on this as I agree that there's a need to start thinking about network of networks and not just networks in isolation. The paper by Gao, Stanley et al. on the robustness of a network of networks might be useful. -- Cheryl
+
+- I'm in . Ren
+
+- I'm thinking if we can possibly use a self-organized criticality (SOC) type of model to trigger a cascade of failures in a network of networks. Not sure though if it has been done.  Cheryl
+
+
+- Thought this paper may be useful for your work [2] - Vishwa
+

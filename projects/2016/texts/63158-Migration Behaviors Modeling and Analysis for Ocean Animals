@@ -1,0 +1,25 @@
+Keywords
+migration, behavior modeling
+
+Summary
+Given the movement track a migratory individual/population from location A (e.g. breeding season) to location B (e.g. non-breeding season), are they following the shortest path? If not, how random is their trajectory? And why are they bothering not using the shortest path?
+Answering this would maybe require analysing the point data using various curve fitting methods and comparing to null models like a random walk for example. 
+
+Some References
+ Tracking marine apex predator movements in a dynamic ocean, 2011.
+ Dataset obtaining is in progress.
+Group Contact
+Ulya Bayram
+
+Interested Participants
+Will Lee
+Pinar Ozisik
+Evelyn Strombom
+Julia Adams
+Marius Somveille
+Emanuele Crosato
+Lars Hubatsch
+Linqing Chen
+Ruichen Sun
+Philip Pika
+Data Sets

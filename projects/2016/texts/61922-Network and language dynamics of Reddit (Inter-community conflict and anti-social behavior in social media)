@@ -1,0 +1,14 @@
+Summary
+I have a cleaned dataset of all Reddit (www.reddit.com) comments from 2009 through 2014 (Reddit is a very popular social media forum with >30 million users).
+This includes all the text of the comments, usernames, the upvotes, and the thread structures (so networks can be constructed). 
+There are many interesting questions that could be investigated with the data, and I would love to hear ideas! (The data is totally public, and I am willing to share even if I don't work on the project).
+
+I would be really interested in at looking at the network and language properties associated with inter-community conflict and anti-social behavior, but my current thoughts are very high-level (any concrete modeling suggestions are greatly appreciated).
+
+I have done a lot of pre-processing and preliminary analysis on a manageable and very clean subset of all 2014 comments for 1200 mid-to-large subreddits (about 50Gb).
+My background is in natural language processing and network mining, and I have lots of preliminary analysis/machinery for measuring linguistic signals in the data.
+
+Group Contact
+Will Hamilton (wleif@stanford.edu)
+
+Interested participants, please sign up below

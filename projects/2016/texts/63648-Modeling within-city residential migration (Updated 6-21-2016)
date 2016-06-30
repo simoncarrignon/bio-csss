@@ -1,0 +1,61 @@
+Keywords
+residential mobility, neighborhood change, network analysis
+
+Summary
+Title: Measuring Within-City Residential Migration Flows and Exploring Attractors and Barriers to Mobility and its Consequences
+
+Objectives:
+
+ Measure within-city residential migration
+ Characterize the mobility network
+ Quantify flows of mobility across neighborhoods
+ Explore attractors and barriers to residential mobility
+ Quantify changes over time in the mobility network
+ Explore the consequences of neighborhood mobility
+ Impact of increased residential mobility throughput on neighborhood disorder.
+ Predictive model of housing prices 
+
+Study setting
+City of Madrid (Spain), from 2004 to 2015 
+Note: Madrid is divided into ~2400 census sections (~1500 people in each) nested into 128 neighborhoods (~20-30,000 people in each). 
+
+Data sources:
+
+
+Spanish Continuous Administrative Census (Padron)
+Mobility data: in 1 year windows (from 2004-2014) how many people have moved from each census section to every other section, by age and level of education
+Sociodemographic data: cross-sectional cuts every year (from 2005 to 2015), including data on education, age and country of origin, for all census sections
+Other sources
+
+Property value: from 2001 to 2015, by neighborhood; cross-sectional cut in 2016 with all houses under sale with their characteristics. 
+Tax registry: geocoded housing units with data on year of construction and size (n~1.6 million housing units). Complete history from 2001 to 2016
+Commercial spaces: geocoded list of all commercial spaces (and open/closed and licensed use)  from 2012 to 2016.
+Traffic: every 15 minutes, from 2013 to 2016, all traffic lights
+Traffic fines: date/time + geocoded address, type of fine (2014-2016)
+Complaints: date/time + geocoded address, type of complaint (2013-2015)
+Other: unemployment, labor data, election results, noise, pollution, gdp, vehicles..
+
+Working Packages:
+
+Management (overarching task)
+Data cleaning and management, codebook management.
+Code, data interfaces
+Mobility as networks (1st stage):
+Quantification of Mobility (flows)
+attractors/barriers models
+  Consequences of Mobility (2nd stage) 
+  Measuring disorder 
+  Predicting property value 
+Group Contact
+Usama Bilal <ubilal@jhmi.edu>
+Slack #citymobility
+
+Group Members (as of 6/21/2016)
+ Usama Bilal
+ Scott Armstrong
+ Jesús Arroyo
+ Michael Schaub
+ Andrew Mellor
+ Anjali Tarun 
+ Ellen Badgley
+ Catriona Sissons

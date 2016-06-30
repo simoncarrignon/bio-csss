@@ -1,0 +1,20 @@
+Summary
+I have a dataset containing fanfictions in the top ~40 most popular fandoms from Archive of Our Own(archiveofourown.org/media). The data includes:
+
+(1) Fanfiction texts (original and moderately preprocessed), within a time range between 2010-now (since AO3 was founded).
+
+(2) ~ 25 metadata fields, some of which include: Kudos, comments, bookmarks, publish date, tags, rating, categories, etc.
+
+(3) The texts represented as topic distribution by buiding LDA models (ongoing, will be completed soon).
+
+
+My current work with it focus on studying the influence of readers' preference on the writings being produced. Meanwhile, I will be happy to share the data and looking for other ideas/questions that may be associated with it.
+
+
+
+Group Contact
+ Yizhi (Elise) Jing  (jingy@indiana.edu)
+
+
+
+Interested participants, please sign up below

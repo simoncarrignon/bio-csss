@@ -1,0 +1,36 @@
+The Black Queen Hypothesis BQH describes the evolution of functional dependencies in microbial ecosystems. This process results in a subset of a community providing necessary services for the rest of the community (see link). Organisms that can outsource essential functions escape the cost performing these functions and have more resources for growth and reproduction. However, this process makes the ecosystem more delicate, as the destruction of key species can eliminate their crucial service(s) and lead to system collapse. Thus, there is a tradeoff between the stability of a network (in the face of perturbations), and the degree of cooperation (how many tasks can be outsourced). As a result of this tradeoff, we could expect different community types to arise in stable vs. variable environments. There is likely some critical range between these two modes (high vs. low environmental variability), where some mixed strategy is optimal. 
+
+This process may have an analogue in the development of multicellular life (vs. free-living single-celled organisms), where each cell type expresses a subset of the genome and provide a specific set of services to the whole (division of labor). This might also be reflected in social or economic networks (higher stability = more cooperative?). A connection could potentially be made to life-history tradeoffs for individual organisms (r vs. k selection - oligotrophs vs. copiotrophs), or in dissipative chemical systems (e.g. Stat-Mech of Self Replication).
+
+Definitely a work in progress, please add your thoughts if you are interested! Also, please include your contact info alongside your name. 
+
+NEXT MEETING: Data Analysis Group - Friday at lunch 
+
+Thoughts:
+Vipin: I believe that this mechanism may have much to do with why "business cycle" occur.
+
+Luis: Maybe this could be also related with the structure and complexity of institutions and its stability. Successful societies increase their size and develop more complex institutions (with higher level of bureaucracy for example) and that can make them less "flexible" and susceptible to get destroyed under not predicted crisis. I think this is related with "social entropy"...  
+
+Ali: This paper might be of interest: http://people.biology.ufl.edu/ulan/pubs/Zorach.pdf They use Shannon's entropy to calculate "number of roles" or division of labor in a network. It is related to trade-off of division of labor and robustness.
+
+Rohan: Potential evolutionary network model: N different kinds of edges for N resources (so N separate networks).  Directed graph, with self-loop signifying self-sufficiency for a particular resource, and a directed edge from A to B indicates that A relies on B for a particular resource.  The weight of an edge corresponds to the proportion the population of node A relying on node B for that resource.  Evolution: at each time step, random mutations change the weights of the edges, and fitness calculations based on the number of self-produced resources change the composition of each node over time.  A perturbation would involve randomly converting all the edges of a particular node to self-loops (or possibly just deleting the node).   
+
+Ernest: a agent-based model: Let’s imagine that there is a land where resources A, B, C are located, and a kind of creature which need all of these resources to survive (imagine many creatures live in this land). One surviving strategy is that every creature gathers A, B and C and eat on its own. But maybe under some condition, specialization would automatically happen (e.g. one creature gather A and another gather B, and then they share). The goal is to find the necessary condition (we could think out of many sufficient conditions, but finding necessary conditions seems not so easy). PS: My original plan is to investigate the process before labor-division, that is, define some creatures' behavior rules which would not directly tell them to collaborate, to see whether they would figure out some way to collaborate automatically. Of course, this kind of rules should satisfy some conditions, otherwise labor-division would not happen definitely. So these conditions matter, and it's what I want to investigate. Anyway, my future plan is flexible.
+
+George: I am thinking of the dependency within the financial networks which you can see cascading failures in a lot of past crisis. i am interested in using the model Rohan mentioned above by adding some some mechanism like internal effect. 
+
+Sean: Here are some resources for modeling dynamical networks in python pycx
+
+Interested:
+Sean Gibbons (sgibbons at uchicago dot edu)
+Rohan Mehta (rsmehta at stanford dot edu) 
+Stojan (stojand@mpib-berlin.mpib.de) 
+Emília (emilia.garcia.casademont at gmail dot com)
+Ali Kharrazi ali[at}pp dot u-tokyo dot ac dot jp
+Vipin  (vipin.veetil at gmail dot com) 
+Ernest Liu (yu.liu@math.uu.se) 
+Cole Mathis (cole.mathis@asu.edu) 
+José Aguilar-Rodríguez (jose.aguilar@ieu.uzh.ch) 
+Renske Vroomans (R.M.A.Vroomans@gmail.com) 
+George (qiaozhi827@gmail.com) 
+

@@ -1,0 +1,401 @@
+Over 120,000 people in the United States are currently on the waiting list for an organ transplant.  The size of this waiting list relates to over 6,000 deaths a year while waiting for a transplant and tens of billions of dollars in government spending.  I have access to the following data sets:
+
+
+ All transplants performed in the US from October 1987 to June 2014 (including follow-up data)
+ All living and deceased organ donors in the same time period (with follow-up data on living donors)
+ Waiting list data for everyone who signed up for the list
+ 2012 National Survey on Attitudes and Behaviors on Organ Donation
+ Social media data relating to organ donation since 2008 
+Open to ideas and suggestions for the topic, there are a lot of interesting questions to investigate including cultural/racial/gender differences in organ donation.  I have several preliminary reports and exploratory analysis done on differences in donors.
+
+Second Meeting Thursday, June 11th 4:15 in the coffee shop!
+
+Matching Game
+Rules for the matching game:
+
+Objective: Create the largest chain possible using blood types in the room.
+
+Follow the blood type guidelines for donation to form a donor chain.  
+
+Assume that self-matches are not possible, for example someone with a donor of type AB and a recipient of type AB can not match themselves and needs to find someone else to complete their chain.
+Create a donor chain to help as many people as possible. 
+Post results below for the prize
+There will be several "good samaritan" donors which will donate and need nothing in return, this is a great way to start your chain.  Using a good samaritan chain also means you don't need a donor for the end point. 
+
+
+Game Workspace
+Use this workspace to post for and find matches!
+
+
+
+Donor Chains
+Post your chain here.  Example is given below:
+
+
+
+Example Chain 1
+
+
+ Person
+
+ Donor Type
+
+ Recipient Type
+
+
+ Christine
+
+ O
+
+ A
+
+
+ Laura
+
+ AB
+
+ B
+
+
+ Matt
+
+ A
+
+ AB
+
+
+
+Example Chain 2
+
+
+ Person
+
+ Donor Type
+
+ Recipient Type
+
+
+ Christine
+
+ O
+
+ None
+
+
+ Laura
+
+ A
+
+ B
+
+
+ Matt
+
+ None
+
+ A
+
+Richard's Current Table
+Iterations: 4638
+Length: 34
+
+
+
+ Person
+
+ Donor Type
+
+ Recipient Type
+
+
+ Christine
+
+ O
+
+ X
+
+
+ Glenn
+
+ O
+
+ A
+
+
+ Havier
+
+ AB
+
+ O
+
+
+ Alejandro
+
+ O
+
+ AB
+
+
+ DanielF
+
+ AB
+
+ O
+
+
+ Sahil
+
+ O
+
+ AB
+
+
+ Alice
+
+ AB
+
+ O
+
+
+ Vanessa
+
+ A
+
+ AB
+
+
+ Cobain
+
+ B
+
+ A
+
+
+ Sam
+
+ O
+
+ B
+
+
+ Urs
+
+ B
+
+ A
+
+
+ Nilton
+
+ O
+
+ B
+
+
+ Charon
+
+ B
+
+ B
+
+
+ Melissa
+
+ A
+
+ B
+
+
+ AndySchauf
+
+ A
+
+ A
+
+
+ Jakub
+
+ O
+
+ A
+
+
+ Masa
+
+ A
+
+ O
+
+
+ Carolina
+
+ O
+
+ A
+
+
+ Jae
+
+ B
+
+ A
+
+
+ Laurence
+
+ O
+
+ B
+
+
+ Martina
+
+ A
+
+ O
+
+
+ Chris
+
+ O
+
+ A
+
+
+ Jeroen
+
+ O
+
+ O
+
+
+ Keith
+
+ AB
+
+ O
+
+
+ Susanne
+
+ A
+
+ AB
+
+
+ Michael
+
+ O
+
+ A
+
+
+ MariePierre
+
+ A
+
+ O
+
+
+ Richard
+
+ A
+
+ A
+
+
+ Kleber
+
+ O
+
+ A
+
+
+ Maria
+
+ O
+
+ A
+
+
+ MatthIn
+
+ AB
+
+ O
+
+
+ Brent
+
+ O
+
+ AB
+
+
+ WillChang
+
+ O
+
+ A
+
+
+ MatthewO
+
+ AB
+
+ O
+
+
+Unused (note that there are enough altruistic donors that everyone can be saved):
+
+
+
+ Person
+
+ Donor Type
+
+ Recipient Type
+
+
+ James
+
+ AB
+
+ O
+
+
+ Jelle
+
+ AB
+
+ X
+
+
+ JGab
+
+ O
+
+ X
+
+
+ LauraCondon
+
+ O
+
+ X
+
+
+ Maggie
+
+ O
+
+ X
+
+
+ Matthew
+
+ O
+
+ X
+
+

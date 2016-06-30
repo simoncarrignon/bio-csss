@@ -1,0 +1,21 @@
+Recent work has focused on developing information theoretic measures for quantifying directed information transfer, with particular applications to social media. These metrics are motivated by the work being done in theoretical / computational neuroscience on the analysis of spike trains. To do this analysis, the behavior of users on a social media platform like Twitter are treated as point processes, where we only keep track of when a tweet occurs, and ignore its content. That is, we treat a user's behavior over time as 'spikes.' Despite the simplicity of the approach, it was found to be successful in identifying key actors within real social networks.
+
+I am interested in applying a similar methodology, but using a different measure of synchrony motivated by computational mechanics. This method seeks to learn the hidden states that generate a user's behavior (very much in the flavor of a Hidden Markov Model, but with a few key twists), and then considers the mutual information between the state sequences of the two users.
+
+A first step for this project would be implementing the methodology proposed by Shalizi, et al., on the toy model proposed by Steeg, et al.
+
+If that is successful (and completed quickly), I have a data set (network connections and behavior) of fifteen thousand Twitter users collected over a three month period. We are interested in using this approach to identify dynamical communities (not only users who are connected, but users who behave in synchrony) within the social network. This takes us beyond typical structural community detection that has had great success in the past decade.
+
+These approaches should work with any sort of dynamics occurring on top of a network-type structure, so if you have a different system you would like to use as a test case, I would be very interested to hear about it!
+
+ Dave Darmon
+
+
+
+A spin off?
+Sorry for editing in your proposal, Dave, but I wanted to comment an idea I have been interested in for a time now. There is this great technique used in neuroscience to pin down the most effective time-course excitation that a neuron can get so that it fires. It basically averages the input a neuron had been getting before each of its spikes. You can find a thorough description in the very popular Dayan & Abbott book on neuroscience. Since you mention the abstraction from tweets to spikes, I would be very interesting in applying such neuro-inspired analysis to this social interactions. Neuroscience has got many more techniques, so I do not pose it as a closed matter. Just open for discussion, but seems like everybody is sleeping by now ;) --  Luíño
+
+You're refering to the spike-triggered average? I hadn't thought of that!
+
+All of the work I've done has only considered a single user's time series for prediction. I would certainly be interested in looking at how including the 'inputs' to the user (or at least the inputs that occur on Twitter) impact this process. The spike-triggered average seems like a great first start. Computational mechanics also has some tricks in its toolbox that could be used for this sort of input-output problem. --  Dave D
+

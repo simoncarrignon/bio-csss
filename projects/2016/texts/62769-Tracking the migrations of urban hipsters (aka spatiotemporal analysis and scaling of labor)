@@ -1,0 +1,33 @@
+Summary
+This is linked to the "Viscosity of Labor" question on the MITRE Challenge Questions list, which is copied below:
+Given US Census collected data can we find relationships between labor and urban scale?
+
+"Using US Census data (and other sources) a number of interesting scaling laws have been discovered that relate to the dynamics of urban human social systems. These scaling laws relate to such things as the generation of intellectual property, income, tax revenue, crime, and so on. What about labor? Does the scaling seen in income come from new or shifting categories of labor or simply increasing the income within an existing (static?) distribution of labor categories? Is there a spatial component?  Does the spatial distribution change with the scale of the urban area?"
+
+The above is the complete question from MITRE, but we can adjust/focus as needed depending on interest and ideas.  I have a sample analysis in another context from a colleague (who actually came up with this idea) which gives some good starting ideas.  One thing I would like to look into is appropriate diversity measures for labor distributions.
+
+There is plenty of US Census data available for this:
+
+ BLS Standard Occupational Classification categories (http://www.bls.gov/soc/home.htm) - these are the 23 high-level categories used to classify occupations in Census datasets - first widespread rollout was in 2000, and the categories were revised in 2010 (but the high-level categories are straightforward to reconcile)
+ US Decennial Census data (http://www.census.gov/2010census/)
+ American Community Survey (ACS) data (http://www.census.gov/programs-surveys/acs/) - 5-year estimates are probably most suitable
+We would probably start at the county level and go finer (census tract/block group) if time allows.
+Matching the labor categories across census years, etc. is going to be the main challenge.
+MITRE and SFI are actively working together to improve the 2030 Census, so we can reach out to SFI directly on this.
+
+
+
+Group Contact
+Ellen Badgley (ebadgley@mitre.org, flyingrat42@gmail.com)
+
+
+Interested participants, please sign up below
+ Lorraine Sugar (lorraine.sugar@gmail.com) 
+ Devrim Ikizler (devrimikizler@gmail.com)
+ Usama Bilal (ubilal@jhmi.edu) Really interested in exploring this kind of data. I once cleaned data on some occupations by census tract from 1930 onwards (for Baltimore city, but can be reproducible). I also have a couple R scripts lying around to extract stuff from ACS easily. 
+Group Organization
+We have a Slack channel on https://sfi-csss-2016.slack.com.  If you need an invite to the Slack team, email flyingrat42@gmail.com.
+
+Meetings
+Let's meet at lunch on Thursday June 16 to talk about this further.
+

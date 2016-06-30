@@ -1,0 +1,27 @@
+Keywords
+Finance, Trading, Asset Pricing, Phase Transition
+
+Summary
+Throwing this up to see if anyone is interested in working with financial time series. A few broad ideas are:
+
+1.) Detecting market phase transitions
+
+2.) I need to get a better understanding of delay coordinate embedding but it might be useful for pricing instruments with sparse data
+
+3.) There may be an interesting trading strategy we can implement using some of the concepts that have come up in the program
+
+It would be great to hear other ideas.
+
+Group Contact
+Rudi Minxha (rudi.minxha@gmail.com)
+
+Interested Participants
+Hi! this is really cool! I don't know if you have read the MITRE-SFI Challenge problems on Predicting Cascade Size in Financial Markets - using the framework of self-organized criticality. I'm putting a copy of it here, in case you get interested.
+
+"Can we use simulation and history to predict the size of cascading events in the future? The dynamics of Self-Organized Critical (SOC) Systems are, by their very nature, very difficult to predict. The overall distribution of event sizes appears stationary but predicting the size of any given event is very difficult. For example, the canonical Bak Sandpile model shows a power law distribution for the sizes of sand avalanches. Although that distribution is stable, predicting the size of a given avalanche is very difficult (impossible?). Some have said that our critical infrastructure and financial markets are SOC systems. Others have claimed that they can predict the dynamics of these systems, especially financial markets. Does this make sense?
+Can you take the Bak sandpile model and make any statements about future avalanche sizes based upon history? This prediction need not be specific, but could take the form of probabilities of larger or smaller avalanches occurring. Look broadly at the dynamics; for example, Sornette has found it useful to look at “draw-ups” and “draw-downs” or consecutive movements in the same direction (avalanches of increasing or decreasing size). Does this boil down to a sampling problem? If you had a time series of avalanches and some sense of the current state of the Bak sandpile could you do a better job of predicting the size of the next avalanche? If so, how accurate does your knowledge of the system need to be, does it need to include some information about where the next sand grain was likely to fall?" -  Anjali
+
+Anjali Tarun (anjalibtarun@gmail.com)
+
+Mika Straka (mika.straka@imtlucca.it)
+

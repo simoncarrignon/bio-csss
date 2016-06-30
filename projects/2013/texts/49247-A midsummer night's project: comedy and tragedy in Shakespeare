@@ -1,0 +1,14 @@
+Max Kleiman-Weiner and I have a corpus of all the Shakespeare plays and have been talking (with many of you, too!) about building a system to automatically classify Shakespeare plays as either comedy or tragedy. A simple approach would be to just use a bag of words to see if the plays can be classified based on lexical content alone. We have also been discussing building social networks for each play based on which characters interact (i.e., who speaks before and after whom). We suspect that the social network structure of a comedy and tragedy should look different from each other. Do characters in comedies have more connections? Do tragedies and comedies start off the same and then have networks that evolve differently over the course of the play? Or are they different from Act I? This may be an opportunity to look at how social networks change over time in a specific domain. We could also look at the different roles of men and women in the social networks of the plays.
+
+-Kyle M
+
+
+This sounds interesting and doable. I've done a work on author attribution of opinion articles before using only syntactic (function words like prepositions and articles, punctuations), structural (sentence length, paragraph length) and lexical (other non-specific words) features. It'd be nice to see if the same thing will work for this. I think it will be more fascinating to explore the social network approach and we should definitely give it a shot if there's still time.
+
+-Cheryl
+
+
+Stories are always good. Incidentally, are you familiar with Kurt Vonnegut's commentary on the shapes of stories? If not, it's not hard to find. If so, there may be something to be said for attempting to determine whether a story conforms to more specific tropes (e.g. Cinderella stories and "The Chosen One"). Moreover, if enough distinct patterns do emerge out Shakespeare's plays, it may prove interesting to compare these to other stories (e.g. novels available on Project Gutenberg).
+
+-Eitan
+

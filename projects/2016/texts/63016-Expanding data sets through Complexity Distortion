@@ -1,0 +1,11 @@
+Keywords
+Summary
+Excerpt from a Microsoft Research paper, "Best Practices for Convolutional Neural Networks Applied to Visual Document Analysis",
+Patrice Y. Simard, Dave Steinkraus, John C. Platt...
+"...Synthesizing plausible transformations of data is simple, but the “inverse” problem – transformation invariance – can be arbitrarily complicated. Fortunately, learning algorithms are very good at learning inverse problems. Given a classification task, one may apply transformations to generate additional data and let the learning algorithm infer the transformation invariance. This invariance is embedded in the parameters, so it is in some sense free, since the computation at recognition time is unchanged. If the data is scarce and if the distribution to be learned has transformation-invariance properties, generating additional data using transformations may even improve performance [6]. In the case of handwriting recognition, we postulate that the distribution has some invariance with respect to not only affine transformations, but also elastic deformations corresponding to uncontrolled oscillations of the hand muscles, dampened by inertia..."
+
+Some References
+Group Contact
+Pavel Senin (seninp@gmail.com)
+
+Interested Participants

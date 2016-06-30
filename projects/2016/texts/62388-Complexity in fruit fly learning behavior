@@ -1,0 +1,31 @@
+Keywords
+Fruit fly, learning, behavior, phenotypic space
+
+Summary
+I designed and built a high-throughput apparatus (currently in the process of patent application), in which I use laser to deliver heat stress to a single fly. When the fly moves, the laser turns on, when the fly stops, the laser shuts down. In order to avoid the heat, the fly has to learn not to move.  Some flies have difficulty in making correct decisions under this stress. Different genetic mutations related to dopamine/serotonin systems may have contributed to the incorrect decisions made.
+
+In the following figures, the first one is a fly’s movement trajectory before training; the second one is the same fly’s movement after one training (usually one fly will experience two training sessions or more).
+
+Before training
+
+
+
+After one training session
+
+
+
+Objectives
+The goal of this project is two-fold: 
+1) Quantify the complexity hidden in the learning curve of individual flies, and characterize variations from fly to fly.  
+2) Create a mathematical model for the fly’s learning process, and verify it in different animals, as well as to understand how mutation in the genome affect learning behavior from the perspective of parametric analysis in mathematical models. 
+
+My time-series trajectory measurement dataset consists of approximately 700 individual flies, including wide-type and mutant flies. It is a rich dataset ready to be analyzed.
+
+Group Contact
+Ruichen Sun (ruichensun0 at gmail dot com, or r5sun at ucsd dot edu)
+
+Interested participants, please sign up below
+Cheng Jin (chengkim@zju.edu.cn) 
+Jacob Hunter (jacob.hunter@pnnl.gov) 
+Chris Revell (cr395@cam.ac.uk) 
+

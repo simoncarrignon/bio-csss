@@ -1,0 +1,13 @@
+Summary
+I have a few datasets laying around that I cleaned for my thesis (and I’m not using for that purpose) and a few more that I obtained but never cleaned. All of them are data for the city of Madrid (Spain) on various geographical and time scales/resolutions, most of them related to social/environmental/demographic variables. 
+The one I’m most interested in using (and I have not cleaned yet) is a dataset of traffic intensity in Madrid. This uses sensors placed in most traffic lights (~3600), and the dataset provides count of vehicles (and associated % capacity used) every 15 minutes, from 2013 to March 2016. Some of the data is messy (but they have a flag for unreliable data). This data is freely available at datos.madrid.es (look for “intensidad de trafico”). 
+Not sure how to insert an image here, but here's a link to a plot created with 45 days of this data on a single intersection. You can guess when the Holy Week and Holy Thursday/Friday happened this year: here  
+I somehow have the sense that using this data may be a cool experience, but I have not figured out yet what to do with it.  
+I have cleaned data on sociodemographic/socioeconomic characteristics at the census section level (~1500 people), geocoded commercial spaces data and more stuff that we can add to this. This also includes historical data on all properties (including houses, commercial spaces, etc.)  
+
+Contact me (or talk to me anytime!) if you are interested or want to discuss some ideas!
+Usama Bilal <ubilal@jhmi.edu>
+
+Interested please sign up below
+ Ellen Badgley - I'm interested but don't have a question to go with this yet - will think about it more!
+Data Sets

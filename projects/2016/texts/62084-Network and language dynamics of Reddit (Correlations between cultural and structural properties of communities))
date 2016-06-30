@@ -1,0 +1,21 @@
+Summary
+I have a cleaned dataset of all Reddit (www.reddit.com) comments from 2009 through 2014 (Reddit is a very popular social media forum with >30 million users; it is organized into thousands of user-moderated "subreddits", which are topically-focused communities).
+The data includes all the text of the comments, usernames, the upvotes, and the thread structures (so networks can be constructed). 
+There are many interesting questions that could be investigated with the data, and I would love to hear ideas! (The data is totally public, and I am willing to share even if I don't work on the project).
+
+I have done a lot of pre-processing and preliminary analysis on a manageable and very clean subset of all 2014 comments for 1200 mid-to-large subreddits (about 50Gb).
+My background is in natural language processing and network mining, and I have lots of preliminary analysis/machinery for measuring linguistic signals in the data.
+
+One high-level idea I have is to look at the relationship between sociolinguistic/cultural features of a community and the dynamic network interaction structures (e.g., clustering of comment-reply networks). 
+I have a ton of sociolinguistic variables that could be used, e.g. how "polite" the language is or how much people use "we" vs "I".
+
+Another cool project would be looking at conflict and/or anti-social behavior (again, I have some linguistic features that I think could be helpful for this).
+
+Group Contact
+Will Hamilton (wleif@stanford.edu)
+
+Interested participants, please sign up below
+ Dima Alexeev (exappeal@gmail.com)
+ Matteo Morini Cool! We need to discuss this too around a couple of beers.
+ Danilo Liuzzi
+ Harrison Smith

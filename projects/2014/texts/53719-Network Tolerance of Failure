@@ -1,0 +1,15 @@
+How might a network endure non-catastrophic failure without isolating the failing components? Most network failure models consider resilience against failure as a result of isolating failing components. In contrast, is it possible for the network to be robust through "tolerance" of failure? Perhaps, for example, a symbiotic relationship sustains a weakened node until it has recovered its prior performance. Or perhaps a transmitting network retains a connection to an offline node to reduce an anticipated memory load of re-establishing the connection when it comes back online. What are some of the ways in which networks are able to maintain connection to a failing node without failing themselves in the process - how is the cascade halted without isolation? This is meant to be a broad question to generate more specific ideas. Importantly, this question refers to "tolerance of" failure in contrast to "resilience against" failure.
+Contact: Jessica Santana jsant@stanford.edu
+
+Interested:
+
+James Holdener (jholdener@mitre.org) 
+Junjian Qi 
+Ells Campbell
+Leto
+Alireza (alireza.goudarzi at gmail.com)
+Claire (lagesse.claire at gmail.com)
+Sean Hayes(shaye004@ucr.edu) 
+Ali Kharrazi 
+
+For those interested in this project, we will be meeting at 1 pm in the cafeteria with a related project to determine how to split up the groups. Cheers, Jessica*

@@ -1,0 +1,36 @@
+One of the central open questions in biology is to understand how genotypes map onto phenotypes. While system and developmental biologists are 
+interested in the physical, biochemical and physiological basis of genotype-phenotype maps, evolutionary biologists try to comprehend their evolutionary causes 
+and consequences. Our current knowledge on this question comes from computational models that allow us to rapidly map genotypes to phenotypes for some biological 
+systems, facilitating the systematic exploration of their vast genotype spaces. These models have shown that many genotypes usually map onto the same phenotype. 
+These genotypes form genotype networks, or neutral networks, that spread far away into genotype space. These networks contain as vertices all the genotypes that share a 
+same phenotype, where genotypes are connected by edges if they differ by a single mutation. 
+
+Thanks to several computational models, the formalism of genotype networks has been very successful at providing new insights about the evolution of systems as 
+diverse as RNA, proteins, regulatory networks and metabolism. Payne & Wagner have recently pioneered the application of this formalism to transcription factor (TF) 
+binding sites. TFs are DNA-binding proteins that regulate gene expression by binding to short sequences on DNA — TF binding sites — that 
+are in close physical proximity to the genes’ coding sequence, thus inducing or repressing gene transcription. The set of DNA sites bound by a particular TF 
+can be viewed as a genotype network. This mapping from TF binding sites onto their cognate TFs constitutes the first exhaustive genotype-phenotype map entirely 
+based on experimental data. 
+
+Research questions that can be asked in this system: 
+1. What is the geometry of empirical genotype networks in genotype space and how that geometry affects evolutionary exploration? 
+2. What is the community structure of these empirical genotype networks? Is this structure determined by the biophysics of TF-DNA binding? 
+3. How accesible is one phenotype from any other phenotype in this system and how that accessibility defines phenotype space as a topological space? 
+
+If you are interested please contact José Aguilar-Rodríguez (jose.aguilar@ieu.uzh.ch). 
+
+References: 
+1. Stadler, B.M., Stadler, P.F., Wagner, G.P., and Fontana, W. (2001). The topology of the possible: formal spaces underlying patterns of evolutionary change. J. Theor. Biol. 213, 241–74. 
+2. Payne, J.L., and Wagner, A. (2014). The robustness and evolvability of transcription factor binding sites. Science 343, 875–7. 
+
+Interested: 
+José Aguilar-Rodríguez 
+Cole Mathis 
+Renske Vroomans 
+Leto Peel 
+Massimo Stella 
+ Glen Otero 
+ Leo Horstmeyer 
+ Brian Thompson 
+ Sean G. (sgibbons@uchicago.edu) 
+

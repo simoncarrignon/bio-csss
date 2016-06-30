@@ -1,0 +1,25 @@
+Keywords
+cultural evolution, language, multilingual 
+
+Summary
+I have a clean dataset of word evolution for 3 languages (English, French, German); this data is built from historical text (books mostly) and includes data for all words that are reasonably frequent/popular in that decade (more than 10000 words per decade). For every decade from 1850-2000 I have:
+
+ word frequency/popularity
+ historical "word vectors" (capture word meaning/semantics)
+ word sentiment scores (whether a word is has a positive or negative connotation; English only)
+ word part of speech tags (e.g., is a word used more as a noun or a verb in a given year). 
+I am totally willing to give all this data away freely (even if I am not actively involved in the project). 
+The project website with the data is: nlp.stanford.edu/projects/histwords/
+
+Group Contact
+Will Hamilton (wleif@stanford.edu)
+
+Interested participants, please sign up below
+Matteo Morini I've always wanted to work on evolutionary linguistics. You have the (coolest) dataset; now we need to devise a model. Perhaps an ABM (w/geographical, metaphorical, network-based space) where people settle, meet, migrate, adjust to new words/morphemes. The (ambitious) goal would be to trim the model as to mimic the empirical data. Sounds feasible? Btw, we will need to figure out (a.k.a. fake ^_^) a way to deal with spatializing the non-geographically referenced dataset. Who's in?
+Juste Raimbault @Matteo would be totally interested in tackling this question of generating synthetic data (hybrid data) of spatial distribution for populations at given time periods (but already involved in two projects, so maybe ok if it is not intricated into the ABM and just the parametrization step) ; have at least historical data for French cities 1830-2000.
+
+
+Danilo Liuzzi
+
+Harrison Smith
+

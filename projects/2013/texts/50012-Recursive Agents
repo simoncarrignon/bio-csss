@@ -1,0 +1,4 @@
+A common theme that I've seen in complexity is that you can represent many different systems (cells, agents, civilizations, for example) with more or less the same rules. I'm wondering if anyone would be interested in modeling this? Essentially we develop a recursive rule set: agents' behavior are based on a set of their 'inner agents,' which also follow similar rules. 
+
+-Todd
+

@@ -1,0 +1,12 @@
+Evolutionary game theory modeling. Agents/players on lattice or networks. A player with n-step memory has responses to all 4^n past game outcomes. Intuitively, a player with longer memory can have more sophisticated strategy, which might be used to exploit player with smaller memory capacity. Yet according to the Prisoner's Dilemma tournament organized by Axelrod, Tit-for-Tat, which can be modeled using only one-step memory, fares better than a number of sophisticated strategies invented by experts in the field of game theory. From the game theory perspective, does smaller memory capacity actually have evolutionary benefits?
+
+
+Interested: 
+Degang Wu (dwuab@ust.hk) 
+Blaz 
+Brian 
+Flavia 
+Cole Mathis (cole.mathis@asu.edu)
+Claudius 
+Luis Martinez ((fnxabraxas@gmail.com) 
+

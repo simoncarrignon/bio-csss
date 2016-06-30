@@ -1,0 +1,28 @@
+Summary
+Swidden agriculture, also known as Slash-and-burn is about as old as agriculture itself. It exists in diverse variants practiced by 200 to 500 million people in different regions of the world; all of these forms involve the slashing and burning of portions of forest, hence its name. There has been a historic controversy regarding swidden agriculture, with some publications presenting it as a destructive force that contributes to global deforestation and other publications highlighting its sustainability and ecological benefits when practiced as a means of subsistence. This controversy shows the need of tools to further research and assess the benefits and costs of swidden agriculture.
+
+This project idea will address the following research question: How do human activities interact with the ecological landscape and the sustainability of swidden agriculture?
+
+This project idea aims to produce a simple, preliminary model with the following components:
+
+ A simplified social network of swidden farmers exchanging agricultural labor, inspired by Downey (2010)
+ A landscape in the form of a 2-D grid in which cells are patches of forest / crops
+Possible model outputs include:
+
+ Yearly harvest
+ Biodiversity
+ Yearly biomass production in forest and fallows
+ A representative indicator of the "net production" of the complete system
+ Sustainability of the complete system
+Biodiversity, biomass production, and sustainability will need reasonable, simple definitions that follow modern literature on the subject.
+
+Software and language
+Every idea is worth discussing. NetLogo might be an option that fits with our limited calendar. Git and GitLab would be used to manage the source code.
+
+Group contact
+Fabio Correa <facorread@gmail.com>
+
+Interested participants, please sign up below
+ Julia Adams
+ Ellen Badgley (I will lurk)
+ Lindsay Todman (Lindsay.todman@rothamsted.ac.uk)

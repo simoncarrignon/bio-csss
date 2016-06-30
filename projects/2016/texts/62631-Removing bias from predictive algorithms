@@ -1,0 +1,12 @@
+Summary
+In many states across the US predictive algorithms are used in an effort to support judges in more objective decision making. These so called risk assessment algorithms are used to predict whether or not a person is likely to appear to court hearings, whether they are likely to repeat their criminal behavior after being released etc.. A recent report by ProPublica shows that one of these algorithms, which is in use in different states, is heavily biased against Afro-Americans. 
+
+We are wondering whether there is a systematic way of removing such a bias, either by modifying the algorithm after training, or by systematically varying the set of criteria which is used to inform the algorithm in order to remove the bias without negatively affecting its predictive power.
+
+A dataset of 7000 convicts and their criminal history after release from prison is available [online].
+
+Group Contact
+Lars Hubatsch (lars.hubatsch@crick.ac.uk)
+
+Interested Participants
+Data Sets

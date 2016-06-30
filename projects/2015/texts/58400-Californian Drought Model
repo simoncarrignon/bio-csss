@@ -1,0 +1,11 @@
+Problem definition: 
+Water is an ongoing problem in California. Although corrective measures are taken for some years, periods of droughts are depleting water ground levels to not sustainable levels. 
+Aims:
+A Netlogo simulation on how likely Californian agents evolve with regards to drought. The ABM could be used to explore the potential impacts of forms of regulation. 
+Outcomes:
+Create an exploratory agent based model based on real data, enabling the possibility of simulating different methods of regulation, including feedbacks between the economic and hydrologic systems.
+
+Extension 1: We will conduct a network analysis of Twitter data (hashtags #drought #California) to explore the social dynamics and information flows between stakeholders.
+
+Extension 2: Phase-space reconstruction of groundwater level time series data, comparing the dynamics in different parts of the Central Valley. 
+

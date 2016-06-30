@@ -1,0 +1,29 @@
+Keywords
+lichen symbiosis, co-evolutionary dynamics, diversification, speciation,                 Lobaria pulmonaria 
+
+Summary
+A comprehensive understanding of symbiotic interactions will require quantitative analysis of the hyperdiverse and largely unexplored lichen symbioses between endolichenic fungi (mostly Ascomycetes) and their photosynthetic hosts (i.e. photobionts), representing the best model of symbioses. The lichen symbiosis is an extremely successful nutritional mode in heterotrophic fungi (usually in the Phylum Ascomycota), allowing the fungi to obtain carbohydrate-rich resources directly from their photobiont partner, which can either be cyanobacteria, green algae, or in some cases both (Lutizoni & Miadlikowska 2009). This unique relationship has had such evolutionary and ecological success that there are close to 14,000 species of lichens worldwide found from the poles to the tropics.
+
+Lobaria pulmonaria is considered the best-studied lichen species worldwide from both an ecological and genetic point of view (Grube & Spribille 2012). The foliose lichen is distributed throughout Europe and parts of North America and grows on the bark of several tree species in old-growth forests. L. pulmonaria is a lichen with a tripartite system consisting of an association among the green alga Dictyochloropsis reticulata, the cyanobacterium Nostoc sp., and its main fungal host in Europe, Lobaria (Dal Grande 2011). Recently, it has been shown that the mycobiont of L. pulmonaria is mostly dispersed together via vegetative propagules and thallus fragments (Werth et al. 2006), implicating long-term interaction in the symbiosis. In order to understand local adaptation and coevolution among symbionts, it is important to examine the genetic structure of lichen mycobionts and photobionts on a continental scale, which has only been done with one other lichen The L. pulmonaria-D. reticulata symbiosis shows significant within-population genetic structure due to restricted gene flow and vertical photobiont transmission (i.e. thallus fragmentation). To study the population structure of the symbiotic system, the fungal and algal symbionts of 4,300 thalli from 142 European populations of Lobaria pulmonaria were genotyped at eight and seven microsatellite loci (data available). 
+
+With this dataset, we plan to use different complex systems approaches from graph theory to agent based models to better understand the actual degree of diversity existing in 142 lichen populations of L. pulmonaria and try to reproduce general features of this system. First, we will analyze the actual data (8 fungus-specific and 7 alga-specific microsatellites) of the L. pulmonaria fungal-algal partnership, reconstruct the bipartite interaction network and obtain common measures of networks (e.g., nestedness, clustering and small-world properties). Moreover, we will introduce the particularities of the fungal-algal interactions in a continuous evolutionary algorithm based on the widely used ECHO framework (Holland 1995, http://tuvalu.santafe.edu/projects/echo/). With these analyses, we hope to obtain similar patterns of speciation as well as ecological interactions, allowing us to better understand the mechanisms driving diversification among populations in the L. pulmonaria system. Determining the co-evolutionary relationships and dynamics in the L. pulmonaria system will help us understand the role that symbiotic interactions have in the generation and maintenance of biodiversity in forest communities.
+
+There are a few datasets available (one without spatial information and another with spatial information).
+
+Group Contact
+Julia Adams (jadams@wellesley.edu)
+
+Participants
+Simon Carrignon  
+Aina Olle Vila 
+Salva  
+Ben Zhu 
+Moriah Echlin 
+Chris Revell 
+
+Meetings
+Tuesday (June 21st) during dinner and continue the discussion after dinner near the same chalkboard.
+Thursday (June 23rd) with Jelena and/or Josh (TBD)
+
+
+

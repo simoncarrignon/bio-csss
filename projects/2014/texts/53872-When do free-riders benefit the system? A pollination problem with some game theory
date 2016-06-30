@@ -1,0 +1,17 @@
+The old title was: "Does Larger Memory Capacity Brings about Evolutionary Advantage?"
+
+Pollination systems are amazing. The expected from a flower visitor , like a bee, is that it enters the flower looking for its resource (nectar) and when gets out, it is carrying many pollen grains in its body. Then, in the next visiting flower looking for more resource, it eventually pollinates this second flower with pollen bind on the body. But what happens is that this system can face up some free-riders, interested in getting their nectar quickly and easily. Yes, they exist! The nectar robbers (or cheaters) can rob nectar in different ways. One of the most amazing techniques is making a hole in the basal part of the flower and getting the nectar without touching the reproductive parts of the flower. 
+
+However, if you think that plants always evolve to avoid this cheaters, maybe you are very mistaken. The presence of the cheaters reduces the amount of nectar inside the flower, and when a pollinator visits this flower after the cheater, it must look for more flowers to get the necessary amount of nectar. It potentially increases the outcrossing reproduction, very necessary for some plant species (and it can also produce a higher fitness than the autopollination system in many other plants which can reproduce via both systems)
+
+We plan to model this unexpected history using a game theory approach, with some flavor of Public Goods game, incorporating memory in the path made by the plant visitors.
+
+Interested: 
+Degang Wu (dwuab@ust.hk) 
+Blaz 
+Brian 
+Flavia (flamarquitti@gmail.com) 
+Cole Mathis (cole.mathis@asu.edu)
+Claudius 
+Luis Martinez (fnxabraxas@gmail.com) 
+

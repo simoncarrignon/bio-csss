@@ -1,0 +1,18 @@
+Keywords
+Agent Based Modeling, Information Theory, Game Theory
+
+Summary
+To me there are some simple rules of trust:
+
+- The more we trust someone the less questions we are asking about their activity
+- By trusting someone, a person reduces the amount of information he needs to process. e.g. If a pedestrian does not have a clear view of the road then he might follow other pedestrians in front of him. By following them he is reducing the amount of information he needs to process.
+- If there is a "perfect trust" in a social system, then the system seems to be more disordered. For example in a military system a soldier blindly obeys the order of its officers. This makes the system more ordered.
+- On the other hand  the less there is trust the more disorder in the social system. So quantifying trust could be a way to quantify the disorderedness or entropy of a social system.
+- But there is a catch. It is easier to propagate a misinformation in a system where everyone blindly trust each other.
+
+The problem is I don't have a dataset that can validate the rules above. But we can use the above observations  to formulate an agent based model where we can tune the parameters to see if we can get any interesting observation.
+
+Group Contact
+Syed Arefinul Haque, haque.s@husky.neu.edu
+
+Interested

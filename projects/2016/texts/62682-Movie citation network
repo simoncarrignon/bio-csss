@@ -1,0 +1,22 @@
+Summary
+IMDB has an open access dataset at: http://www.imdb.com/interfaces. Our project is based on the dataset and we have current several potential research questions:
+
+1) The sleeping beauty of movies. Based on the "shoutouts" of one movie to another,  a "citation" network exists that connects millions of movies. The "sleeping beauties" had been identified in scientific paper citation networks, which are papers that became frequently cited a long time after publication. We are interested in finding similar (or different) patterns in the movie citation network.
+
+2) If atypical combination of movie properties/citations/genres could predict its popularity.
+
+3) A more general idea is the gender issue in movie industry, such as the different network structures of actor and actress.
+
+
+We welcome any feedback! 
+
+Group Contact
+ Yizhi (Elise) Jing  (jingy@indiana.edu)
+
+ Lu Liu 
+
+Interested participants, please sign up below
+Donovan Platt (donovan.platt@students.wits.ac.za) 
+
+Cheng Jin (chengkim@zju.edu.cn)
+

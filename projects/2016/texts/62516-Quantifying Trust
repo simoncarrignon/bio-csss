@@ -1,0 +1,45 @@
+Keywords
+Agent Based Modeling, Information Theory, Game Theory
+
+Summary
+To me there are some simple rules of trust:
+
+ The more we trust someone the less questions we are asking about their activity
+ By trusting someone, a person reduces the amount of information he needs to process. e.g. If a pedestrian does not have a clear view of the road then he might follow other pedestrians in front of him. By following them he is reducing the amount of information he needs to process.
+ If there is a "perfect trust" in a social system, then the system seems to be more ordered. For example in a military system a soldier blindly obeys the order of its officers. This makes the system more ordered.
+ On the other hand  the less there is trust the more disorder in the social system. So quantifying trust could be a way to quantify the disorderedness or entropy of a social system.
+ But there is a catch. It is easier to propagate a misinformation in a system where everyone blindly trusts each other.
+My intuition is that we can use both information theory and game theory to quantify trust this way. The problem is I don't have a dataset yet that can validate the rules above. But we can use the above observations  to formulate an agent based model where we can tune the parameters to see if we can get any interesting observation.
+
+Interesting addition and comments to the idea
+Please add your comments and idea about the project here.
+
+Are there shortcuts to building trust?  For example, in the area of financial instruments, can the use of credit ratings substitute for more detailed due diligence?  What are the implications of such short cuts?  [Nai Seng]
+
+Group Contact
+Syed Arefinul Haque, haque.s@husky.neu.edu
+
+Interested Participants
+Donovan Platt (donovan.platt@students.wits.ac.za)
+
+Devrim Ikizler (devrimikizler@gmail.com)
+
+Frank Marrs
+
+Nai Seng Wong (fsgwns@gmail.com)
+
+Mika Straka
+
+Lu Liu (luliu@psu.edu)
+
+Xiongrui (John) Xu (xuxr007@gmail.com)
+
+Ellen Badgley (flyingrat42@gmail.com) - I'd be interested in following along, and FYI this might be a research area that MITRE is interested in too.
+
+Marcus Nordström (manordst@gmail.com)
+
+Meetings
+Wednesday 7:30, June 15, 2016
+
+We are meeting in front of the coffee shop at 7:30 for a general discussion
+

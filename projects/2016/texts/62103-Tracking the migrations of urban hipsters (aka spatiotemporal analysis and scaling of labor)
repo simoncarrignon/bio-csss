@@ -1,0 +1,28 @@
+Summary
+This is linked to the "Viscosity of Labor" question on the MITRE Challenge Questions list, which is copied below:
+Given US Census collected data can we find relationships between labor and urban scale?
+
+"Using US Census data (and other sources) a number of interesting scaling laws have been discovered that relate to the dynamics of urban human social systems. These scaling laws relate to such things as the generation of intellectual property, income, tax revenue, crime, and so on. What about labor? Does the scaling seen in income come from new or shifting categories of labor or simply increasing the income within an existing (static?) distribution of labor categories? Is there a spatial component?  Does the spatial distribution change with the scale of the urban area?"
+
+The above is the complete question from MITRE, but we can adjust/focus as needed depending on interest and ideas.
+
+There is plenty of US Census data available for this:
+
+ BLS Standard Occupational Classification categories (http://www.bls.gov/soc/home.htm) - these are the 23 high-level categories used to classify occupations in Census datasets - first widespread rollout was in 2000, and the categories were revised in 2010 (but the high-level categories are straightforward to reconcile)
+ 2000/2010 US Decennial Census data (http://www.census.gov/2010census/)
+ American Community Survey (ACS) data (http://www.census.gov/programs-surveys/acs/) - 5-year estimates are probably most suitable
+We would probably start at the county level and go finer (census tract/block group) if time allows.
+MITRE and SFI are actively working together to improve the 2030 Census, so we can reach out to SFI directly on this.
+
+
+
+Group Contact
+Ellen Badgley (ebadgley@mitre.org, flyingrat42@gmail.com)
+
+
+Interested participants, please sign up below
+
+
+Group Meetings
+Anybody want to meet after dinner on Wednesday 15 June?
+

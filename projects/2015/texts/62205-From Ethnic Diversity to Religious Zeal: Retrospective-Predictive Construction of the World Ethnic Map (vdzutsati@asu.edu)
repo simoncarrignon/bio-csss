@@ -1,0 +1,16 @@
+There is a new dataset on ethnic groups (2014), which claims to include all ethnic groups of the world http://www.cidcm.umd.edu/mar/amar_project.asp. There are also several cross national datasets on religion and other variables of interest, normally, socio-economic http://www.thearda.com/Archive/CrossNational.asp. Coming from social sciences I thought it would be really interesting to apply methods and perspectives from other disciplines to social science data. 
+
+One idea that I have in mind is to explore how ethnicity and religion interact.
+
+Quick empirical checks indicate that Subsaharan Africa is home to about 1,500 ethnic and subethnic groups, in comparison to about 90 ethnic groups in the Middle East and North Africa. India alone accounts for nearly 2,000 ethnic and subethnic groups, while Europe, including all the countries of the former USSR and large immigrant groups from other parts of the world, has only about 260 ethnic groups. The picture that emerges from this simple comparison is that the spread of Abrahamic religions appears to be associated with the high depletion rate of ethnic groups. The exception of China, which has little more than 50 ethnic groups, can be explained by the country’s long history of a centralized state. 
+
+The idea then is to assume that we have had the control group of nations that did not experience the influx of Abrahamic religions (or more precisely received limited exposure to them) and the experimental group that was exposed to the spread of Abrahamic religions. Since we know what the distribution of ethnic groups in the control group is we can project what the distribution of ethnic groups in the experimental group would be, if the group were not exposed to Abrahamic religions.
+
+Of course, we could go in the other direction too and make a projection about future – what would happen to ethnic groups if all of them adopted an Abrahamic religion. 
+
+One of the challenges in this project is absence of a dynamical system, I.e. We don’t have data on how these things changed over time, but I still think that projection about the future and the past would be kinda cool:)
+
+Interested:
+
+ --
+ William Leibzon (william@leibzon.org) - anthropologist in me is interested :) but unfortunately mathematician in me wants to join another group at CSSS. If this project goes forward somewhere else in the future, let me know as data scientist in me wouldn't me digesting the data for patterns once I have more time.

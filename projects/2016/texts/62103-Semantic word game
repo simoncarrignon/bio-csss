@@ -1,0 +1,17 @@
+Keywords
+cognitive science, language, games, network routing, free association 
+
+Summary
+See http://pybossa.socientize.eu/pybossa/app/Semantics/ to play the game. The goal is, given a starting word, navigate through forced choices to a known target word. The global idea is to understand the effect of context and how individuals can manipulate semantic space online (like we constantly have to do in natural conversation. A project idea is to construct random models where we can see influence of the target word. For example, if we have directed search from the start node to the end node as well as a directed search path from goal to start, can we combine these paths to capture human performance.
+
+Data is available for download at https://pybossa.socientize.eu/pybossa/app/Semantics/tasks/export and looks like (JSON)
+{"info": "ILLUSION~FANTASY~16~FANTASY~ISLAND~6~ISLAND~OCEAN~4","user_id": 1732, "task_id": 13792, "created":"2014-04-01T11:26:06.479946", "finish_time":
+"2014-04-01T11:26:06.479966", "calibration": null, "app_id": 430,"user_ip": null, "timeout": null, "id": 3211605},
+This user went from illusion to fantasy (16 seconds), then from fantasy to island (6 seconds) and so on. 
+
+Research question is still a bit unclear but a while back there was more than 10478 games. Additionally something similar has been done using wikipedia http://snap.stanford.edu/data/wikispeedia.html
+
+Group Contact
+Nicole Beckage nbeckage at gmail
+
+Interested participants, please sign up below

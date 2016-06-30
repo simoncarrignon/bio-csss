@@ -1,0 +1,30 @@
+I have an ill-defined, wacky idea to possibly use genetic algorithms to evaluate the formation of networks as either following preferential attachment or homophily (aka similarity) rules.  This short Nature paper looks at the debate between preferential attachment and similarity/homophily dynamics.  I don't have a clear idea of what this would look like, but I think it might be fun to think about ways to use genetic algorithms to solve network problems. Talk to me if you think this remotely interesting and we can evolve an idea together?  -- Molly
+
+Another possibility would be using genetic algorithms or attachment algorithms to compare to models of real-world data to understand how these networks likely formed and predict future edges.
+
+Molly, I would like to investigate using GA to create an organizational network structure (think org chart or military chain of command or even project groups at the CSSS) and then compare it to existing structures. Let's talk! -John L
+
+Some people were also talking about co-evolution of a network and an attacker that disconnects nodes or edges. -- David
+
+Everyone interested in this and related meet Wed 6/5 at 4pm in main lecture hall - group of folks interested in studying network evolution/fitness/information/energy spread meeting. --Molly
+
+Seem to be two branches of this: 
+1) network evolution toward a predefined fitness function (energy, information efficiency, etc.) via genetic algorithms - what structures evolve? 
+2) co-evolution of a network and attacks of different forms - what structural changes take place? which structures are robust to attacks?
+
+1) network evolution toward a predefined fitness function
+2) co-evolution of a network and attacker
+Interested members: Elena, Andrea, Stephan, Bruno, Johannes, David M., Holly, Mauricio
+
+We're thinking about co-evolving a network and an attacker agent. The network's fitness is robustness (to be defined later) to attack, and the attacker's fitness is disruption of the network. Both also need to be subject to some sort of resource constraint -- otherwise the optimal network is fully-connected, and the attacker's optimal strategy is just disconnecting all of the nodes.
+
+Some background reading:
+http://www.talkorigins.org/faqs/tierra.html
+
+http://www.researchgate.net/publication/220841044_Formal_Methods_for_Modeling_Socio-technical_Innovation_between_Adversaries?ev=prf_pub
+
+Tools:
+Probably Java or Python. We need something that has network metrics already, so we don't need to code them ourselves. Possibly use a GA package / library as well.
+
+I created a page for the project and started to discuss some of the issues: NetAttac
+

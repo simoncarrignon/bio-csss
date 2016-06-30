@@ -1,0 +1,18 @@
+Nonequilibrium game theory
+My hope is to adapt some SFI-based models, by people like Crutchfield and Farmer, so that they will quantitatively or qualitatively reproduce features of real human data.  Of course, that is very specific, and I'm up for all kinds of ideas in the areas of game learning, game dynamics, small group collective behavior, cognitive science, nonlinear time series, non-eq time series, etc., etc.
+
+Meet me, Seth Frey, at dinner on Thursday and Friday.
+
+Enzyme kinetics – Do enzymes just accelerate equilibrium or play an active role in chemical reactions?
+Enzyme networks (e.g. glycolysis) and catalysts in complex mixtures (e.g. Belusov-Zhabotinski reaction) can profoundly influence the outcome of a chemical reaction system. What about a single enzyme? Biochemistry textbooks uniformly say that an enzyme accelerates a reaction without altering its outcome. Yet, the set of differential equations that generically describes enzyme catalysis has remarkable resemblance to the Roessler equations (a textbook example of a non-linear, complex system). With a fixed substrate input or a steady substrate flow, a single enzyme probably cannot affect the reaction outcome. However, sinusoidal or pulsating substrate input, substrate activation or product inhibition, coupling of two enzymes could turn the reaction pattern non-linear.  For this project, the sets of equations to study are quite well established – they need to be analyzed. In contrast to some of the more ambitious ideas circulated, this task is exhaustively doable in less than four weeks.
+
+I am Georg Weber. If you are interested in studying this problem, please find me on Tuesday over lunch or dinner (or talk to me at any other unstructured time). 
+
+Traffic pattern analysis - Can we estimate car velocity by only observing car counts?
+Imagine you have a monitored highway section with a start and end point. At both points you count the number of cars that pass by. The question I'd like to answer / simulate / estimate is: can we make some inference about the velocity of cars although we only have their counts? This would be very useful from an engineering / economic perspective because it's much easier / cheaper to count cars instead of actually tracking them from A to B.
+
+I have some intuition about how to go about this, but these are purely statistical (think of it as birth and death process; or as particles in a system that have a certain lifetime - cars in the highway section are like particles in a system). I would like to see if using more physical modeling of motion and agent-based modeling of traffic flow could shed more light on this problem.
+
+If you are interested in this topic let me know (me = Georg M. Goerg). Let's say Wednesday for lunch (or any other time you see me around).
+
+next idea here

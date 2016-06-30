@@ -1,0 +1,19 @@
+Keywords
+agent based models, network science, cooperation, iterative games
+
+Summary
+Data available.
+Game design:Each player is tasked with building a 'team' of 5-6 characters out of a league of 40-60 players. The team receives a numeric (deterministic) score. This is played iteratively for a fixed (known) set of rounds. Cooperation comes in because at any time each player can see the teams and scores of all other players and may copy, select characters from or otherwise utilize all other players teams. The goal is to maximize the score of the group.
+Group size varies from 1 to 9 people in a session. Repeated games are played between the same team and difficult varies systematically within a full set of games.
+
+Research question is still not nailed down but some ideas
+model the communication structure  (in terms of copying other peoples choices)  in a network and look if certain structural elements are correlated with improved performance
+model learning and improvement in terms of sharing information over iterative runs and across group size
+look at instances of sweeping change as innovation and study propagation of this event through the group.
+
+Group Contact
+Nicole Beckage nbeckage [at] gmail.com
+
+Interested participants, please sign up below
+ Mika Straka
+ Joris Broere, j.j.broere@uu.nl

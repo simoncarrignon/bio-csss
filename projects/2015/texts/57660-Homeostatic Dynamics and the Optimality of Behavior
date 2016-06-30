@@ -1,0 +1,19 @@
+The survival of all organisms is predicated on occupying a small subspace of internal states, the long-run regulation of which is contingent on behaviour. Currently most models of reinforcement learning and decision-making make the assumption that behaviour is optimal insofar as it maximises reward acquisition by maximising the expectation value of reward. An often unchallenged assumption of this approach is that the target variable to be maximized is an ergodic observable. An ergodic observable is characterised by the time-average converging to the expectation value. Recent work by Peters and co-workers on dynamics in decision making [1] [2] show that the underlying dynamics of a process should govern the objective function that is optimised; the expectation operator for purely additive dynamics and the time average for purely multiplicative dynamics. 
+
+
+In this project I will ask two questions: First, what are the characteristic dynamics of homeostatic variables? Second, how do these dynamics constrain the objective function that biological agents must maximise? I will  investigate the degree to which such dynamics are ergodic, or not. Non-ergodic processes are likely common in homeostatic systems. For instance, reaction rates of biochemical networks typically grow by a constant multiplicative factor for every stepwise change in core temperature. Any biological agent engaging in behavioural thermoregulation of such products thus faces multiplicative dynamics, and as such according to the framework should maximise time average growth, not the expectation value. I will survey extant literatures on homeostatic systems, looking for cases in which the underlying dynamics are clearly characterised, and for which there is a plausible and unambiguous path to how such a system can be behaviourally regulated. 
+
+
+As a trained economist and neuroscientist working with computational models of decision making under evolutionary constraints, I am especially interested in the dynamics that govern homeostatic processes that are optimised via overt regulatory behaviour - such as temperature, hydration, and energy regulation, such that experimentally testable predictions can be specified. 
+
+
+Interested:
+<br
+
+Contact: tobiasm@drcmr.dk 
+
+
+[1]	O. Peters and M. Gell-Mann, “Evaluating gambles using dynamics,” arXiv.org. 2014.
+
+[2]	O. Peters, “The time resolution of the St Petersburg paradox,” Philosophical Transactions of the Royal Society A: Mathematical, Physical and Engineering Sciences, vol. 369, no. 1956, pp. 4913–4931, Oct. 2011.
+

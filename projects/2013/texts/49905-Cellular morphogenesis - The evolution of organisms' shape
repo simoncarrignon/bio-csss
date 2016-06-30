@@ -1,0 +1,12 @@
+I am interested in genetic design, not as much the modifications of already existing plants and animals but rather the capabilities of from-the-ground-up design of completely new organisms. One of the most basic question when it comes to multicellular organisms is how they end up with their particular shape and how it is a product of cell growth, membrane adhesion, chemical signalling etc. I suggest a project where we explore what types of shapes can emerge in simple cell growth models and how the shape can be controlled by tuning the organisms genes, the interactions. When we have something running, one interesting continuation would be to apply genetic algorithms on the growth parameters and se what happens with the emerging shape if we for example assign high fitness to high surface area but low volume, high moment of inertia or maybe concentric shells of different cell types. We can also compare our results with simple, real organisms and se if nature found similar solutions (shapes).
+
+There are different cellular models we could use, most reasonable would be a cellular potts model (B) or a vertex dynamic model (D) [6], depending on what type of details we want to include. I suggest we start out with 2D simulations.
+
+I also believe this project can steer into many different directions, so if you like parts of the premise and have ideas on other directions we could take this, say hi.
+
+Max Planck instutute with a group on this subject: [7]
+
+A vertex dynamics model investigating how a specific cell morphogenesis could occur: [8]
+
+ Oskar email me at oskarxvi at gmail dot com
+

@@ -1,0 +1,19 @@
+Summary
+High-level questions: How do (social) power structures emerge in complex networks? How do hierarchies restrict/modify information flow through networks? How does structural power (e.g., due to network hierarchy) differ/relate to intrinsic power (e.g. some nodes/people have more "skill/worth" regardless of their network position).
+
+One idea I have is looking at the interplay of these dynamics by simulating (social learning) games on networks; for example, games where agents have to share information to estimate the worth of external items (like stocks, prestige goods etc.).
+Other ideas would involve analysis of how information flow is affected by hierarchy etc.
+
+Group Contact
+Lula Chen (nchen3@illinois.edu) 
+Will Hamilton (wleif@stanford.edu; wrote this is description based on chat with Lula; not my area of research)
+
+Interested participants, please sign up below
+[NOTE: this is semi-duplicate with prestige goods project below; I just wanted a separate space to gauge interest in more general power dynamics questions]
+
+Jeffrey Emenheiser (jemenheiser@ucdavis.edu)
+Santiago Guisasola (sguisaso@uci.edu)
+Ellen Badgley (flyingrat42@gmail.com) - as you said this overlaps with the prestige goods project, and I think we can do some interesting network models that address both! [Will: Indeed :)]
+Joris Broere j.j.broere@uu.nl
+Crosato Emanuele (crosato.emanuele@gmail.com) - I can use information theory to investigate directional dependencies, might be useful?
+

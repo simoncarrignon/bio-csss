@@ -1,0 +1,14 @@
+People's beliefs about the health benefits/risks of vaccination can be influenced by their social network, and may be studied using belief propagation models. Simultaneously, diseases may spread through a population, which can be studied using diffusion or other epidemiological models. Furthermore, people's beliefs about vaccination may affect their probability of getting infected by a disease, and in turn, getting infected may cause them to re-evaluate their beliefs.
+
+Previous work has separately studied (1) how beliefs propagate and change over time, (2) how diseases spread through a population over time, and (3) the (static) correlation between beliefs about vaccination and infection rates; but possibly not all three simultaneously.
+
+This project has some similarities to the project on "Coupling Different Types of Networks," and it may make sense for the two groups to be in communication with each other, or even to merge the two projects. This can be discussed later as the projects develop.
+
+Interested:
+Ells
+Nhat
+Glen
+Andy
+Brian
+Alberto
+

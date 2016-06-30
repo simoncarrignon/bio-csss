@@ -1,0 +1,45 @@
+Rule-based modeling features:
+
+biological systems as concurrent processes
+dynamics of post-translational modifications
+domain availability
+competitive binding
+causality and intrinsic structure
+binding sites
+interaction rules replace reaction equations
+infinite number of reactions with a small and finite number of rules
+reduction of parameter space
+“don't care don't write” - adjustable rule contextualization 
+single reaction rule and parameters generalize classes of multiple rules
+modular and extensible language
+specification language & simulation/integration environment
+static and causal analysis
+Kappa/KaSim & BioNetGen/NFsim -- specification language/network-free simulator
+
+
+
+
+Meetings:
+
+
+ WEDNESDAY 11/06/2015 
+Addressing problems in terms of the other aspects of the projects apart from the biological questions and verification (matching results to some published experiments or known behaviour). So my plan is as follows:
+
+ divide the group (roughly) into people who look in to  biological meaning and validation and the one which tries to do the analysis of system phenomenons and evolution of stochastic, combinatorially complex signalling systems in both a qualitative (directed acyclic graphs, networks) and quantitative way (time series generated for all agent/species formed/destroyed in the system) - all possible states, scenarios of the system abstracted from the biological meaning.
+Things that could be modelled (look in dropbox folder: https://www.dropbox.com/sh/g080w60pt2vgi7v/AACHlMf2JwpP2EZqKq7Di6N2a/possible%20models?dl=0):
+
+ to make things easier and have the modeling part done quickly- base the model on the dopamine-related synaptic plasticity (SBML ODE model): http://www.ebi.ac.uk/biomodels-main/MODEL1101170000; 
+ I found a series of papers suitable to the subject of the Complex Systems course, e.g.: http://www.ncbi.nlm.nih.gov/pmc/articles/PMC344803/. I was thinking to even try to compare higher level brain data (networks, spiking ..) with purely molecular model
+ noise and low copy number (http://www.princeton.edu/~wbialek/our_papers/bialek+setayeshgar_08.pdf); this is quite interesting as for sufficiency of binding events -> http://www.princeton.edu/~wbialek/our_papers/bialek+ranganathan_07.pdf
+ spontaneous flipping of interactions (phosphorylations and others) between proteins, described by the god of non-linear dynamics (S. Strogatz)
+
+
+
+ THURSDAY 11/06/2015 : http://doodle.com/se23ibwtkrkccs4s
+
+
+
+Some refs:
+
+https://www.dropbox.com/sh/g080w60pt2vgi7v/AADUy7Ge-J-oSYkyTeYOo7V8a?dl=0)
+http://www.pps.univ-paris-diderot.fr/~jkrivine/homepage/Teaching.html

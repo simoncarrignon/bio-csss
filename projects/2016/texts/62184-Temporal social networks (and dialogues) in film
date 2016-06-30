@@ -1,0 +1,23 @@
+Keywords
+movies, films, social network analysis, pop culture
+
+Summary
+I have (or know of) three great datasets for analyzing social networks and interactions of characters in films (i.e., the social networks of the characters in the movies). 
+
+ Dataset 1 has pre-processed dialogues from around 300 movies + metadata (this dataset is public; www.mpi-sws.org/~cristian/Cornell_Movie-Dialogs_Corpus.html). 
+ Dataset 2 has high-level static network structures for character interactions in 700 movies (this dataset is public; www.moviegalaxies.com)
+ Dataset 3 has detailed information on the temporal scene structure (who appears on screen together etc.) for thousands of movies + metadata (e.g., rotten tomatoes scores); this data is more private/sensitive and is currently very messy, but we can definitely use it for this project. 
+Things I would like to do:
+
+ How do structures of movie social networks predict genre, rating, box office success, country of production, etc.
+ (Temporal) network motifs: what are the common patterns of different types of films? 
+ Movie social networks vs. real life social networks.
+Group Contact
+Will Hamilton (wleif@stanford.edu)
+
+Interested participants, please sign up below
+ Juste Raimbault (juste.raimbault@polytechnique.edu) [definitively in, but not as main project. Can propose analyses such as NLP on dialogues or spatial analysis if there is spatial metadata.]
+ Jesús Arroyo (jarroyor@umich.edu)
+ Andy Mellor (mmasm@leeds.ac.uk) - Very interesting project but perhaps a little to close to my PhD work. Definitely interested in the tempora network aspect/temporal motifs.
+ Michael Schaub (michael.schaub@uclouvain.be)
+ Marius Somveille (marius.somveille@zoo.ox.ac.uk)

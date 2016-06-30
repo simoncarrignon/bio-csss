@@ -1,0 +1,14 @@
+This project will investigate if signal analysis of a person's cough coupled with collection of other data (such as: age, height, weight, etc.) can be used to distinguish between a healthy and an unhealthy lung. Our idea is that humans have evolved a specific sound/frequency of coughing so as to break up mucus in the lungs and that diseased lungs will have different sounds/frequencies than a healthy lung. Using the collected data, we will be able to determine if coughs are specific to individuals or if there are qualities about them that span a population. If there are qualities that span a population, then the data can lead to answering deeper questions about how to care for individuals with cystic fibrosis. For instance, treatment of this disease state could lead to adjusting their cough—through external means—to help move stagnant mucus in their lungs.
+
+Project goals
+ Create a website that allows users to submit cough sound files and enter appropriate metadata to.
+ Determine relevant signal analysis techniques that can be used to analyze coughs.
+ Create a classifier that can separate coughs into different categories.
+ Display any analysis on the website.
+We will be using standard techniques to create the website (Ruby on Rails), host the data (Postgres and Amazon S3), generate a classifier (Mahout), and display the data (D3). If you are interested in learning some of the standard technologies that companies use, you are welcome to join the group. The project is engineering heavy, however, the scientific goal is to determine if a cough is either specific to a person or if there are principles about it that are similar within a population. If there are similarities, then this can lead to interesting biological questions such as how did the cough evolve.
+
+Interested
+ Andy Email Andy using the wiki if you are interested.
+ Ells
+ Nix has a nasty chest cold and would be interested in learning about some of the software used here.
+ Glen

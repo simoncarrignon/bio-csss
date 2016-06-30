@@ -1,0 +1,18 @@
+Keywords
+cities, industrial ecology, materials, GIS, fractals, scaling
+
+Summary
+There is an amazing GIS dataset from a group in Japan about material stocks in buildings and infrastructure -- cell size is 1km, it extends throughout the country over multiple years: 
+
+Tanikawa et al. 2015: http://onlinelibrary.wiley.com/doi/10.1111/jiec.12284/abstract
+
+Looking at the map of the stocked materials, there are clear links to complexity (fractals, scaling, etc.). I have a copy of the dataset (but limited ArcGIS skills). It would be awesome to form a team to dive into this dataset using complexity tools. I think interesting things can be learned related to physical infrastructure growth and the mass of cities.
+
+Other Ideas/Input
+Group Contact
+Lorraine Sugar (lorraine.sugar@gmail.com)
+
+Interested Participants
+ Ben Zhu (b.zhu@tudelft.nl)
+ Lu Liu
+Data Sets

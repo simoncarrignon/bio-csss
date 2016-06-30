@@ -1,0 +1,12 @@
+Summary
+It seems intuitive that if I were to A) give you the output (and only the output) of the logistic map with paramater 4 and initial condition 0.4, you would have a hard time recovering the function and parameter set, and B) if I gave you the logistic map and parameter values, you could quickly verify that they produced the output. This project would be about studying the P=NP problem and the relevant information theory and chaos theory.
+
+Admittedly this is something I know little to nothing about, and whole fields of time series analysis are devoted to recovering functions and their parameters: establishing that there exists a function that produces output that is not computably invertible but is easily verified would make a big statement on the P = NP idea. The activities of this group would be reading and understanding information theory and chaos theory and working towards a paper that provides some insight on P=NP and relevant complexity theory.
+
+JE: I think symbolic regression could actually recover the return map rather quickly, although it would certainly be difficult (impossible) to confirm the uniqueness of this map. I'm very curious about this topic, but it could be as simple as a conversation with Jim Crutchfield sometime.
+
+Group Contact
+Xander Brehm (alexander.brehm@linacre.ox.ac.uk)
+
+Interested participants, please sign up below
+Jeffrey Emenheiser (jemenheiser@ucdavis.edu)

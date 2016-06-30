@@ -1,0 +1,17 @@
+Keywords
+critical infrastructure, information theory, network theory, agent-based model
+
+Summary
+Deregulation of the US power grid has opened the door to speculators who trade futures contracts that are based on the minute-by-minute price difference for a megawatt hour between two generators (think nodes). The generators are connected by transmission lines (think edges) that must, in general, follow Kirchhoff's laws of current and potential. We want to explore what information exists in these location based prices regarding the structure of the underlying network of generators, consumers, and transmission lines. Public historical data on the price at each generator and the power both forecasted (24 hours ahead) and realized at each generator exists for certain regions of the US and I have built a small database of 2 years worth of this data for roughly 15 zones of the New York interconnect. An interesting side note, the power forecasted and demanded at one particular node tends to be periodic and easy to forecast. The price (which theoretically is driven by demand) at that same node exhibits multifractal properties, apparent heavy-tails in the increments, and long memory. The process that converts bids, offers, and the physical constraints of Kirchhoff's laws is usually a linear program that  minimizes cost across all generators that can contribute to the demand.
+
+Group Contact
+James Thompson (j7sthompson@gmail.com)
+
+Interested Participants
+ Catriona Sissons c.sissons@auckland.ac.nz
+ Daniel Biro (daniel.biro@med.einstein.yu.edu)
+ Charlotte (charlotte.james@bristol.ac.uk)
+ Ryan McGee (ryansmcgee@gmail.com)
+ Mika Straka (mika.straka@imtlucca.it)
+ Harrison Smith (hbs@asu.edu)
+ Aina Ollé Vila (aina.olle@upf.edu)

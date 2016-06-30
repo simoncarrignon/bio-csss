@@ -1,0 +1,45 @@
+Keywords
+patterns, globalization, trade, fractals, trends, British empire, Trieste
+
+Summary
+What if can we see how is the face of globalization? 
+Globalization is a phenomenon lasting centuries. I believe we can begin to look better at its face from the data of trade.
+
+Thanks to the scaling power of fractals, we can look for patterns into a small, well defined environments, such as the free ports.
+
+I have the data regarding the flow of goods in the free port of Trieste in the 19th century and specifically those regarding Trieste and the British Empire.
+Trieste was the main port of the Habsburg empire, one of the 10 most important port in the world at the time. In the 19th century we had a kind of globalization that was centred on the British financial system, so it is important to see the grade of integration with the British world System of a single free port  out of the British empire.
+
+I have data regarding:
+
+vessels: tons and value of goods, flag, provenance and destination
+
+goods: amount in tons and value of import-export for each typology, 
+general data regarding trade in Trieste
+
+In addition I have the data regarding the Generali Insurance company. Based in Trieste, the company was and is one of most important insurance company in the world.
+I have all its balance sheets from 1830s to World War 1. We can look  at insurance on vessels and the goods they transported as a proxy for the general development of trade in Trieste and to evaluate trade risk over the time.
+
+We can begin concentrating on 3 goods, for example, and to see what kind of networks of countries we find out, what trends they developed.
+In general we can choose from the huge data set I have what can be more interesting to our purpose.
+What models we can build, what math we can use and what tools fit better to find the patterns, which ultimately will led us to begin to see on the horizon the face of globalization.
+
+Interesting addition and comments to the idea
+Please add your comments and idea about the project here.
+
+ (Lorraine) It would also be interesting to explore how trade impacts the growth of the city itself. Materials entering and exiting, how materials are stored, how the city is built, etc...
+(Gaetano) very well, I have data about it too, for example this on number of houses (case) and population (abitanti):
+
+
+Group Contact
+Gaetano Dato, gdato7@gmail.com
+
+Interested Participants
+ Lorraine Sugar (lorraine.sugar@gmail.com)
+ Ben Zhu (b.zhu@tudelft.nl)
+ Usama Bilal <ubilal@jhmi.edu> This is a topic that really interests me. I'm mostly focused ("back home") in short-term changes but I do believe in the enormous (actually, much more important!) importance of long-term trends
+ Lu Liu A paper on product space and golbal economy which might be relavent to the project : Hidalgo, César A., et al. "The product space conditions the development of nations." Science 317.5837 (2007): 482-487.
+a small gift to everybody: a link on a simulation showing a single mass on a spring
+For those who likes to play with this kind of things:
+http://www.myphysicslab.com/spring1.html
+
